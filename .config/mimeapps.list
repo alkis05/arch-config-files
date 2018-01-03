@@ -1,0 +1,4 @@
+[Added Associations]
+application/x-bzip=Thunar-folder-handler.desktop;
+application/zip=xarchiver.desktop;
+application/x-ms-dos-executable=wine.desktop;
