@@ -34,3 +34,4 @@ workspace
 .xsession-errors.old
 .config/bookworm
 .vim
+.config/transmission/
