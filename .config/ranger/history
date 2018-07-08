@@ -1,6 +1,18 @@
-
-help
 help v
-open_with 
-delete
 search mnt
+search ThE
+set order ctime
+set sort ctime
+set show_hidden=1
+!thunar &
+
+search 
+ls -a
+-a
+help
+set show_hidden=true
+shell bash
+delete
+oder
+helpj
+open_with 

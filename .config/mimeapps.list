@@ -1,4 +1,9 @@
 [Added Associations]
 application/x-bzip=Thunar-folder-handler.desktop;
 application/zip=xarchiver.desktop;
-application/x-ms-dos-executable=wine.desktop;
+application/x-ms-dos-executable=cxassoc-cxoffice-0:application_x-crossover-exe::install.desktop;wine.desktop;
+application/vnd.rar=xarchiver.desktop;
+application/x-7z-compressed=xarchiver.desktop;
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+video/mp4=vlc.desktop;

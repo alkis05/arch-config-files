@@ -1,500 +1,500 @@
-sudo killall winefile
-ps aux | grep wine
-ps aux | grep XCom
-sudo kill all XCom2
-sudo killall XCom2
-cd /mnt/windows/R.G.\ Catalyst/XCOM\ 2/
+ls --color=never| grep -v Kernel.tar.gz | grep -v build_kernel.sh | xargs rm -R
+ls --color=never| grep -v Kernel.tar.gz | grep -v build_kernel.sh | xargs rm -R
+ls --color=never| grep -v Kernel.tar.gz | grep -v build_kernel.sh | xargs rm -R
 ls
-cd Binaries/
-ls
-cd Win64/
-ls
-XCom2 -noRedScreen -noreview
-./XCom2 -noRedScreen -noreview
-wine64 XCom2 -noRedScreen -noreview
-sudo pacman -S winetricks
-pacman -Ss wine
-sudo pacman -S q4wine wine-mono
-sudo pacman -S fuseiso
-pacman -Ss sudo
-ls /usr/bin/sh
-ls /usr/bin/sh -l
-yaourt -S customizepkg
-cd /mnt/windows
-ls
-ls
-ls -1
-memusage
-memusage --help
-memusage fallout4
-reboot
-uname -r
-modprobe ntfs
-sudo modprobe ntfs
-sudo mount /dev/sda3 /mnt/windows/
-thunar /mnt/windows/
-sudo thunar /mnt/windows/
-ls
-cd /mnt/windows/
-ls
-chown alkis:wheel /mnt/windows/ 
-sudo mount /dev/sda3 /mnt/windows/ -o remount,rw
-zcat /proc/config.gz | grep NTFS
-sudo umount /mnt/windows/
-sudo mount /dev/sda3 /mnt/windows/ -o rw
-mount
-sudo pacman -S fuse
-sudo umount /mnt/windows
-sudo pacman -S ntfs-3g
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw
-mount
-lsmod | grep ntfs
-ls
-ls /mnt/windows/ -l
-ls /mnt/windows/ -ld
-sudo chown alkis:wheel /mnt/windows
-ls /mnt/windows/ -ld
-sudo chown alkis:wheel /mnt/windows/
-man chown
-sudo chown alkis:wheel /mnt/windows/ -r
-sudo chown alkis:wheel /mnt/windows/ --recursive
-sudo chown alkis:wheel /mnt/windows/ --recursive -v
-ls
-ls /mnt/windows/ -dl
-cd /mnt/windows/
-ls
-ls -l
-sudo chown alkis:wheel /mnt/windows/ --recursive -v
-ls
-ls -l
-cd ..
-ls -l
-sudo chown alkis:wheel /mnt/windows/ --recursive -v
-ls
-ls -l
-ls | tail -n 1
-ls | tail -n 1 | xargs rm
-ls
-ls \'\'
-ls \'\'*
-ls
-ls -1
-rm \'\<\,\'\>\ \!xclip 
-ls
-sudo rm \'\<\,\'\>\ \!xclip 
-ls
-ls -l
-cd windows/
-ls
-ls -l
-ping google.com
-mount.ntfs-3g
-man mount.ntfs-3g
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,remount
-cd  ..
-cd ..
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,remount
-sudo umount /mnt/windows/
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000
-ls /mnt/windows/ -l
-man mount.ntfs-3g
-sudo umount /mnt/windows/
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,gid=1000
-cd
-sudo pacman -S wine
-ls
-cd git/
-ls
-ls build/
-rm build/ -r 
-xdiskusage .
-ls
-rm abs/linux/repos/core-x86_64/src/ -r
-cd abs/linux/repos/core-x86_64/
-ls
-du -h
-ls
-du linux-custom-* -h
-ls
-ls pkg/
-du pkg/linux-custom -h
-cd ..
-ls
-cd core-x
-cd core-x86_64/
-ls
-sudo rm -r pkg/
-ls
+tar xzf Kernel.tar.gz 
+vim build_kernel.sh 
+vim build_kernel.sh 
+python
+sudo pacman -S lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs
+sudo pacman -S git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip
+sudo pacman -Suy
+sudo pacman -S git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip
+sudo pacman -S git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip
+sudo pacman -S lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs
 clear
+cd workspace/android/samsung/
 ls
-sudo pacman -U linux-custom-4.14.9-1-x86_64.pkg.tar.xz 
-lz linux-custom-4.14.9-1-x86_64.pkg.tar.xz 
-zcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz 
-man xz
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz 
-man tar
-man tar
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz | tar -l
-man tar
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz | tar -t
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz | tar -t 2>/dev/null
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz | tar -t 2>/dev/null | less
-man tar
-winefile
-cd git/abs/linux/
+cd kernel
 ls
-cd repos/core-x86_64/
+source build_kernel.sh 
+vim build_kernel.sh 
+source build_kernel.sh 
+echo $ARCH
+ls arch/arm64/boot/
+find . -name zIamge
+find . |grep zImage
+make all
 ls
-vim PKGBUILD 
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,gid=1000
-ps aux | grep ck
-man wine64-preloader 
-wine64-preloader /mnt/windows/Program\ Files/Crusader\ Kings\ II\ 109/ck2game.exe 
-wine64 /mnt/windows/Program\ Files/Crusader\ Kings\ II\ 109/ck2game.exe 
-wine64 /mnt/windows/Program\ Files/Crusader\ Kings\ II\ 109/ck2.exe
-nmon
-nmon
-pacman -Ss cabextract
-pacman -Ss taskmonitor
-pacman -Ss monitor
-sudo pacman -S nmon
-nmon
-nmon
-sudo pacman -S gnome-monitor
-sudo pacman -S gnome
-WINEARCH=win32 WINEPREFIX=~/.win32 winecfg
+find . | grep vmlinux
+find . | grep vmlinux$
+find . | grep \.gz
+find . | grep \.gz$
+make -j4 all
+make menuconfig
+make -j4 all
+make clean
+make -j4 all
+ls arch/arm64/boot/
+ls arch/arm64/boot/dts/
+make mrproper
 ls
-ls -a
-rm -r .win32
-pacman -Ss sudo
-yaourt -Ss sudo
-yaourt -S xfsudo
-yaourt -S kdesudo
-yaourt -S xfsudo
-yaourt -S xfsudo
-xfsudo
-xfsudo thunar
-man termite
-rm .cache/winetricks/directx9/directx_Jun2010_redist.exe 
-xdiskusage /mnt/windows/
-xdiskusage /mnt/windows/ &
-find /mnt/windows/ | grep -ie mount.*blade
-
-reboot
-sudo mkdir /mnt/windows_c
-sudo mount -t ntfs-3g /dev/sda1 /mnt/windows_c/ -o rw,uid=1000,gid=1000
-find /mnt/windows | grep westworld
-find /mnt/windows | grep -ie westworld
-vlc /mnt/windows/Users/alkis/Downloads/Westworld\ S01\ Season\ 1\ Complete\ HDTV\ 720p\ x265\ AAC\ E-Subs\ \[GWC\]/Westworld\ S01E5
-vlc /mnt/windows/Users/alkis/Downloads/Westworld\ S01\ Season\ 1\ Complete\ HDTV\ 720p\ x265\ AAC\ E-Subs\ \[GWC\]/Westworld\ S01E05\ 720p\ HDTV\ x265\ AAC\ \[GWC\].mkv 
-ps aux
-sudo mount -t ntfs-3g /dev/sda1 /mnt/windows_c/ -o rw,uid=1000,gid=1000
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,gid=1000
-pacman -Ss q4
-ping google.com
-pacman -Ss | grep -E  qt4 -e settings
-pacman -Ss | grep -E qt4 -e settings
-pacman -Ss | grep -E qt4
-pacman -qtconfig-qt4
-qtconfig-qt4
-pacman -Ss murrine
-sudo pacman -S murrine
-sudo pacman -S gtk-engine-murrine
-qtconfig-qt4
-find /mnt/windows_c/ | grep -E skyline
-find /mnt/windows_c/ | grep -E cities.exe
-find /mnt/windows_c/Program\ Files | grep -E cities.exe
-find /mnt/windows_c/Program\ Files\ \(x86\)/ | grep -E cities.exe
-find /mnt/windows_c/Games/ | grep -E cities.exe
-find /mnt/windows_c/Users | grep -E cities.exe
-find /mnt/windows_c/ | grep -E cities.exe
-find /mnt/windows_c/ | grep -iE cities.exe
-killall ck2.exe
-ps aux
-ps aux | grep ck2.exe
-ps aux | grep ck2
-dhcpcd
-sudo dhcpcd
-ping google.com
-ping google.com
-ping google.com
-ping google.com
-ping google.com
-ip link
-dhcpcd
-sudo dhcpcd
-ping google.com
-ps aux
-ps aux | grep \.exe
-ps aux | grep '\.exe'
-killall Cities.exe
-clear
-clear
-find /mnt/windows -name ck2.exe
-ps aux
-ps aux | grep ck2
-ps aux | grep wine
-ps aux | grep wine
-ps aux | grep 
+man tee
+source build_kernel.sh | tee build.log
+make menuconfig
+vim build_kernel.sh 
+make -j4
+adb
+sudo pacman -Ss adb
+sudo pacman -Ss adb|grep adb
+yaourt -Ss adb |grep adb
+yaourt -Ss adb |less
+sudo pacman -S android-tools
+sudo pacman -Suy
+sudo pacman -Suy adb
+sudo pacman -S adb
+sudo pacman -S android-tools
+odin
+yaourt -S heimdall
+heimdall-frontend 
+adb devices
+adb devices
+adb devices
+adb devices
+adb
+adb devices -l
+adb devices -l
+sudo pacman -S android-udev
+adb devices -l
+adb devices -l
+adb devices -l
+adb devices -l
+sudo pacman -S android-file-transfer
 lsblk
-man rsync
-rsync
+ls /dev
+mkdir ~/my-phone
+aft-mtp-mount ~/my-phone/
+adb devices
+adb devices
+aft-mtp-mount ~/my-phone/
+sudo aft-mtp-mount ~/my-phone/
+pacman -Ss gvfs
+sudo pacman -S gvfs-mtp
+sudo pacman -S thunar-archive-plugin
+sudo pacman -S tumbler
+sudo pacman -S ark xarchiver file-roller
+sudo pacman -S ark xarchiver file-roller
+sudo pacman -S ark  file-roller
+sudo pacman -S mtp-fs
+sudo pacman -S mtpfs
+vim /etc/fuse.conf
+sudo vim /etc/fuse.conf
+mtpfs -o allow_other ~/mnt
+ping google.com
+ping google.com
+adb devices -l
+heimdall
+heimdall-frontend 
+adb devices -l
+adb devices -l
+aft-mtp-mount  ~/my-phone/
+ls ~/my-phone/
+pacman -Q libmtp
+mtp-detect 
+mtp-connect 
+mtp-reset 
+mtp-hotplug
+mtp-detect 
+mtpfs -o allow_other ~/my-phone/
+sudo pacman -Rucs mtpfs
+atf-mtp-mount ~/my-phone/
+sudo pacman -S android-file-transfer
+sudo pacman -Ql android-file-transfer
+aft-mtp-mount ~/my-phone/
+sudo aft-mtp-mount ~/my-phone/
+ls /home/alkis/my-phone/ -l
+ls /home/alkis/my-phone/ -ld
+chown alkis:alkis /home/alkis/my-phone/
+sudo chown alkis:wheel /home/alkis/my-phone/
+man chown
+sudo chown alkis:wheel /home/alkis/my-phone/
+sudo ls /home/alkis/my-phone/
+sudo ls /home/alkis/my-phone/ -ld
+sudo rm -R ~/my-phone/
+sudo rm -Rff ~/my-phone/
+sudo rm -Rrf ~/my-phone/
+man rm
+man rmdir
+sudo rmdir ~/my-phone/
+sudo rmdir ~/my-phone/
+fuser ~/my-phone/
+sudo fuser ~/my-phone/
+sudo fuser -k ~/my-phone/
+ps aux
+ps aux
+killall gvfs
+killall gvfsd
+ps aux
+kill 603049
+kill 3049
+ps aux
+sudo rmdir ~/my-phone/
+mkdir ~/my-phone
+ps aux
+ps aux |less
+adb devices
+adb devices
+mtp-detect
+mtp-connect 
+man mtp-connect 
+sudo systemctl restart gvfsd
+ps aux
+aft-mtp-mount ~/my-phone/
+aft-mtp-cli 
+ps aux
+kill 17086
+ls -ld ~/my-phone/
+mtp-detect 
+mtp-connect 
+mtpfs -o allow_other ~/my-phone/
+ps aux
 ls
-ls D
-rm D
-rm D -r
+mtp-files
+sudo pacman -Rucs android-file-transfer
+pacman -Fo mtp-connect
+pacman -Qo mtp-connect
+man pacman 
+man heimdall
+man heimdall
+heimdall --help
+adb
+adb devices -l
+adb devices -l
+reboot sideload
+reboot sideload
+adb devices -l
+adb devices -l
+adb devices -l
+adb devices -l
+adb devices -l
+mtp-connect 
+adb devices -l
+adb devices -l
+adb
+adb reboot sideload
+adb root
+sudo adb root
+adb shell
+adb root
+adb devices -l
+adb shell
+adb
+adb reboot recovery
+less .config
+cd ../bootimg/
 ls
-ls test
-rm test
-rm test -r
+rm boot.img
 ls
+md5sum boot.img.orig 
+cp boot.img{.orig,}
+ls
+abootimg -u boot.img -k Image 
+md5sum boot.img
+adb reboot recovery 
+ls
+abootimg -u boot.img -k Image 
+adb reboot recovery
+cp boot.img.orig boot.img
+rm boot.img
+ls
+rm Image 
+ls
+rm boot.img.new 
+cp boot.img.orig boot.img
+abootimg -u boot.img -k Image 
+adb reboot recovery
+cp boot.img.orig boot.img
+cat ../kernel/build_kernel.sh 
+ls
+abootimg -u boot.img -k Image 
+adb reboot recovery
+abootimg -u boot.img -k Image 
+adb reboot recovery
+ls
+cp boot.img.orig boot.img
+abootimg -u boot.img -k Image 
+adb reboot recovery
+abootimg -u boot.img -k Image 
+adb reboot recovery
+adb reboot recovery
+adb | less
+adb shell bu help
+adb shell bu --help
+adb | less
 clear
-ls
-cd /
-cp -aR /home/* /mnt/home
-sudo umount /mnt/home
-ls -l /tmp
-mkdir /tmp/home
-ls /tmp/home
-ls /tmp/home -ld
-mount /dev/sda13 /tmp/home
-sudo mount /dev/sda13 /tmp/home
-ls /tmp/home/ -ld
-sudo chown alkis:wheel /tmp/home
-cp -aR /home/* /tmp/home
-sudo ls /home/lfs
-sudo ls /home/lfs -a
-man cp
-ls
-sudo mount /dev/sda8 /mnt/ubuntu/
-sudo umount /mnt/ubuntu
-cd git/
-ls
-sudo rm -r gentoo/
-find ~/ -name trash
-sudo rm -r ~/.local/share/Trash/*
-ls ~/.local/share/Trash/
-ls ~/.local/share/Trash/ -d
-ls ~/.local/share/Trash/ -dl
+repo
+pacman -Q repo
+pacman -Q sdk
+pacman -Q |grep sdk
+pacman -Q |grep sdk|cut -f1 -d " "
+pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql
+pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql|grep bin
+pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql
 clear
-dd if=/home of=/dev/sda13
-sudo dd if=/home of=/dev/sda13
-sudo dd if=/home/* of=/dev/sda13
-sudo dd if=/home/ of=/dev/sda13
-man dd
-cd 
-sudo mkdir /mnt/home
-sudo mount /dev/sda13 /mnt/home
-cp /home/* /mnt/home/*
-cd ..
-cd ..
-ls /mnt/home
-man df
-df 
-df /tmp
-exit
-df
-mount | grep tmpfs
-df
+clear
+pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql
+pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql|repo
+clear
+bluetoothctl
+clear
 df -h
-man /dev/shm
-man shm
-10
-clear
+ifconfig
 ls
-cd ..
-ls
+ls /mnt/
+ls /mnt/windows_e/
+du -h /mnt/windows_e/|grep -E "\/mnt\/[\w \s \.]"
+du -h /mnt/windows_e/|grep -E "\/mnt\/[\w \s \.]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/[ \w \s \. ]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/ [ \w \s \. ]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/[ a-zA-Z \s \. ]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/[ a-zA-Z \s \. \- ]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/[ a-zA-Z \s \. \_ ]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[ \w \s \. \_ \- ]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[ \w \s \. \_  ]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[ \w ]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[\w]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[\w]"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/\w"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z]"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-z]+"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-z0-9]"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9]"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\.]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\.\s]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\. \s]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\. \s \( \)]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\. \s \( \)]*"
+du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\. \s \( \)]*$"
+ls /mnt
+mkdir /mnt/windows10
+sudo mkdir /mnt/windows10
+sudo mount /dev/sda1 /mnt/windows10/
+reboot
+sudo grub-install --boot-directory=/boot /dev/sdb7
+grub-install --target=i386-pc /dev/sdb7
+sudo grub-install --target=i386-pc /dev/sdb7
+sudo fdisk /dev/sdb
+cgdisk 
+cgdisk /dev/sdb
+sudo cgdisk /dev/sdb6
+sudo cgdisk /dev/sdb
+fidsk /dev/sdb
+fdisk /dev/sdb
+sudo fdisk /dev/sdb
+parted /dev/sdb6
+sudo parted /dev/sdb6
+sudo parted /dev/sdb
+sudo parted /dev/sdb6
+sudo parted /dev/sdb
+sudo parted
+sudo parted /dev/sdb
+man parted
+info parted
+sudo parted /dev/sdb
+grub-bios-setup 
+grub-bios-setup --help
+grub-install --help
+sudo grub-install --force /dev/sdb7
+dd if=/dev/sdb7 of=boot.bkp
+sudo dd if=/dev/sdb7 of=boot.bkp
+sudo umount /boot
+reboot
 cd
-cd ..
-ls
-cd
-cd
-clear
-ls
-ls tarballs/
-rm tarballs/cflow-latest.tar.bz2 
-ls tarballs/
-pacman -Ss image
-pacman -Ss image | grep viewer
-pacman -Ss image | less
 ls
 cd git
+ls
 cd abs
 ls
-ASPROOT=. asp checkout ranger
+cd linux/trunk/
 ls
-cd ranger
-ls
-cd repos/
-ls
-cd community-any/
-ls
-vim PKGBUILD 
-sudo pacman -S w3m
-ls /tmp/home
-ls /tmp/home/lfs/ -a
-sudo ls /tmp/home/lfs/
-sudo cp -aR /home/lfs/ /tmp/home
-ls /tmp/home
-ls /tmp/home -l
-ls ../ -a
-ls ../ -al
-cd ..
-cd ..
-genfstab
-genfstab -u /
+makepkg -i
+ls /boot
+sudo pacman -S linux linux-docs linux-headers
+sudo pacman -Suy
+sudo lightdm
+parted
+exit
+less /boot/grub/grub.cfg 
+sudo less /boot/grub/grub.cfg 
+sudo less /boot/grub/grub.cfg 
+mkinitcpio --help
+cd git/abs/linux/trunk/
+makepkg -i
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+reboot
 genfstab -U /
-sudo umount /tmp/home
-sudo rm -r /home/*
-sudo mount /dev/sda13 /home
-ls home
-ls
-genfstab -U /
-sudo mv /mnt/windows /mnt/windows_e
-sudo umount /mnt/windows
-sudo fuser -k /mnt/windows
-sudo umount /mnt/windows
-sudo mv /mnt/{winodws,windows_e}
-ls /mnt
-sudo mv /mnt/{windows,windows_e}
-sudo mount /dev/sda13 /mnt/windows_e
-fanstab -U /
-genfstab -U /
-genfstab -U / >> /etc/fstab
-sudo genfstab -U / >> /etc/fstab
-su -c  "genfstab -U / >> /etc/fstab"
-sudo vim /etc/fstab
-sudo umount /mnt/windows_e
-sudo mount /dev/sda3 /mnt/windows_e
-su -c  "genfstab -U / >> /etc/fstab"
-sudo vim /etc/fstab
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-mount
-genfstab -U /
-df
-df -h
-cd
-ls
-pacman -Ss mc
-yaourt mc-git
-yaourt -S mc-git
-mc
-pacman -Ss ranger
-sudo pacman -S rander
-sudo pacman -S ranger
-sudo pacman -S atool elinks mediainfo
-ranger
-ranger
-ranger
-ps aux | grep wine
-ps aux 
-killall dotnetfx.exe
-clear
-clear
-clear
-cd ..
-cd ..
-cd ..
-ls
-clear
-cd
-cd ..
-cd ..
-cd
-ls
-clear
-WINEPREFIX=~/.local/share/wineprefixes/win32/ /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/CK2game.exe 
-WINEPREFIX=~/.wine/ /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/CK2game.exe 
-ls /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/
-ls /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/_CommonRedist/
-ls /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/_CommonRedist/vcredist/
-WINEPREFIX=~/.local/share/wineprefixes/win32/ /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/CK2game.exe 
-rm -r /.local/share/wineprefixes/win32/ 
-rm -r ~/.local/share/wineprefixes/win32/
-find .local/share/wineprefixes/Win32/
-find .local/share/wineprefixes/Win32/ |grep Temp
-rm .local/share/wineprefixes/Win32/drive_c/users/alkis/Temp/msid3f.tmp 
-rm .local/share/wineprefixes/Win32/drive_c/users/alkis/Temp/msid3f.tmp 
-rm .local/share/wineprefixes/Win32/
-rm .local/share/wineprefixes/win32/
-rm .local/share/wineprefixes/win32/
-rm .local/share/wineprefixes/win32/ -r
-rm -r ~
-cd
-cd ..
-cd
-clear
-rm .local/share/wineprefixes/win32/ -r
-WINEPREFIX=~/.local/share/wineprefixes/win32/ winetricks dotnet20
-
-rm -r .cache/winetricks/directx8 
-rm -r .cache/winetricks/dxsdk_jun2010/
-rm -r .cache/winetricks/PowerPointViewer/
-rm -r .cache/winetricks/win7sp1/
-rm -r .cache/winetricks/*
-WINEPREFIX=~/.local/share/wineprefixes/win32/ winetricks dotnet35
-WINEPREFIX=~/.local/share/wineprefixes/win32/ wine uninstall dotnet20
-man wine
-WINEPREFIX=~/.local/share/wineprefixes/win32/ wine uninstaller --remove dotnet20
-WINEPREFIX=~/.local/share/wineprefixes/win32/ wine uninstaller
-rm -r ~/.local/share/wineprefixes/win32/ 
-WINEPREFIX=~/.local/share/wineprefixes/win32/ winetricks dotnet35
-sudo pacman -S wine-mono
-sudo pacman -R wine
-sudo pacman -Rucs wine
-sudo pacman -S wine wine-mono
-sudo pacman -S q4wine
-sudo pacman -Rucs q4wine 
-sudo pacman -Rucs wine wine-mono
-rm .wine/ -r
-rm .local/share/wineprefixes/ -r
-sudo pacman -S wine-mono wine q4wine
-sudo pacman -Ss wine-mono
-sudo pacman -Ss mono
-pacman -Si cups
-find q4wine
-find . -name q4wine
-sudo pacman -R q4wine
-find . -name q4wine
-find . -name q4wine | xargs rm -r
-find . -name q4wine 
-sudo pacman -S q4wine
-find /usr |grep mono
-WINEPREFIX=~/.wine/ wine installer /usr/share/wine/mono/wine-mono-4.7.1.msi 
-find .wine/drive_c/ -name *.exe
-man wine
-WINEPREFIX=~/.wine/ wine /usr/share/wine/mono/wine-mono-4.7.1.msi 
-WINEPREFIX=~/.wine/ wine cmd -e /usr/share/wine/mono/wine-mono-4.7.1.msi 
-WINEPREFIX=~/.wine/ wine cmd -e /usr/share//h
-WINEPREFIX=~/.wine/ wine cmd START /usr/share/wine/mono/wine-mono-4.7.1.msi 
-cd /
-cd
-cler
-clear
-rm .wine/dosdevices/c\:/windows/temp/_d3dx10_43/ -r
-rm .cache/winetricks/directx9/directx_Jun2010_redist.exe 
-mount | grep home
-getcwd
-sudo getcwd
+cat /etc/fstab 
 clear
 ls
+ls /boot
+cd workspace/
+mkdir bootpc
+cd bootpc/
+ls
+cp /boot/initramfs-linux-custom-fallback.img .
+ls
+file initramfs-linux-custom-fallback.img 
+gunzip initramfs-linux-custom-fallback.img 
+mv initramfs-linux-custom-fallback.img initramfs-linux-custom-fallback.gz
+gunzip initramfs-linux-custom-fallback.gz 
+ls
+file initramfs-linux-custom-fallback 
+cpio --help
+cpio -i < initramfs-linux-custom-fallback 
+ls
+cd etc/
+ls
+vim fstab 
+vim fstab 
+vim mtab 
+ls -l
+sudo pacman -S linux linux-headers linux-docs
+ping google.com
+sudo pacman -Ss
+sudo pacman -Suy
+sudo pacman -Suy
+sudo pacman -S linux linux-headers linux-docs
+sudo grub-install 
+sudo grub-install  /dev/sdb
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+sudo grub-mkconfig
+ls
+find /boot
+mkinitcpio --help
+mkinitcpio -L
+cd 
+cd git/abs/linux/trunk/
+makepkg -i
+sudo makepkg -i
+makepkg -i
+grub-mkconfig > /boot/grub/grub.cfg 
+sudo grub-mkconfig > /boot/grub/grub.cfg 
+grub-mkconfig -o /boot/grub/grub.cfg 
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+reboot
+shutdown -h now
+ifconfig
+man repo
+pacman -Qo repo
+gnome-system-monitor &&
+gnome-system-monitor &
+venv
+v
+xev
+cd workspace/android/lineageOS/
+repo sync
+trickle -d 500 repo sync
+man trickle
+trickle -d 500 repo sync
+trickle -d 500 repo sync
+trickle -d 500 repo sync
+trickle -d 500 repo sync
+vim .repo/manifest.xml 
+vim .repo/manifest.xml 
+trickle -d 500 repo sync
+trickle -d 500 repo sync -c
+vim .repo/manifest.xml 
+repo sync -c
+repo sync -c
+ping google.com
+repo sync -c
+repo sync -c
 ping google.com
 ls
 ls
-rm test.txt.gpg 
-cat test
-clear
+du -hcs .
+ls .repo/
+xdiskusage .
 ls
-gpg -c test
-clear
+source venv/bin/activate
+source build/envsetup.sh
+breakfast zerofltexx
+adb devices
+adb shell
 ls
+cd device/samsung/zerofltexx/
+ls
+less extract-files.sh 
+less ../zero-common/extract-files.sh 
+which adb
+source extract-files.sh 
+ls
+find ../../../vendor/samsung/
+ls -r ../../../vendor/samsung/
+man ls
+ls -R ../../../vendor/samsung/
+ls -R ../../../vendor/samsung/ -l
+ls -R ../../../vendor/samsung/ -lh
+echo "export USE_CCACHE=1" >> ~/.bashrc
+export USE_CCACHE=1
+ccache -M 50G
+echo 'export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"' >> ~/.bashrc
+export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
+croot
+man time
+time ls
+gpg --list-secret-keys
+brunch zerofltexx
+cd workspace/android/lineageOS/
+ls
+brunch zerofltexx
+croot
+source venv/bin/activate
+which python
+source build/envsetup.sh 
+breakfast zerofltexx
+croot
+brunch zerofltexx
+sudo pacman -S ninja
+brunch --help
+brunch -h
+brunch zerofltexx
+repo sync -c
+source build/envsetup.sh 
+breakfast zerofltexx
+croot
+brunch zerofltexx
+find . | grep hwui_static_deps\.mk
+find . | grep -e "hwui_static_deps\.mk"
+vim .repo/manifest
+vim .repo/manifest.xml 
+repo sync -c
+repo sync -c
+repo sync -c
+brunch zerofltexx
 ls
 ls -a
-sudo gpg -d test.gpg 
-exit
-ls
+source build/envsetup.sh 
+breakfast zerofltexx
+croot
+lunch zerofltexx
+brunch zerofltexx
+make clean
+source build/envsetup.sh 
+breakfast zerofltexx
+croot
+brunch zerofltexx
+cd device/samsung/zerofltexx/
+source extract-files.sh 
+source extract-files.sh |tee blobs.txt
+grep -e error blobs.txt 
+grep -e error blobs.txt | grep -i libmcclient 
+adb shell
+grep -e error blobs.txt |grep so
+grep -e error blobs.txt |grep \..so
+grep -e error blobs.txt |grep \.so
 clear
-ls
-exit
-exit
-find /etc/ -name gpg.conf
+grep -e error blobs.txt |grep \.so
+adb shell
