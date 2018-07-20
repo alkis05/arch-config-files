@@ -12,7 +12,7 @@ ls -a
 help
 set show_hidden=true
 shell bash
-delete
 oder
 helpj
 open_with 
+delete

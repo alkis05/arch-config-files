@@ -11,23 +11,39 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/<!--
+~MSle0~/basename
 
 # Last Substitute Search Pattern:
-~MSle0&192.*
+~MSle0&\ 
 
 # Last Substitute String:
-$192.168.42.129:1194
+$\\\ 
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1531050625,,"q"
-:q!
-|2,0,1531049312,,"q!"
 :wq
-|2,0,1531022792,,"wq"
+|2,0,1532124980,,"wq"
+:q
+|2,0,1531968328,,"q"
+:s/\ /\\\ /g
+|2,0,1531357009,,"s/\\ /\\\\\\ /g"
+:r !pwd
+|2,0,1531356942,,"r !pwd"
+:q!
+|2,0,1531356509,,"q!"
 :w
-|2,0,1531006545,,"w"
+|2,0,1531331431,,"w"
+:%s/^#.*//g
+|2,0,1531105941,,"%s/^#.*//g"
+:%s/^\#
+|2,0,1531105908,,"%s/^\\#"
+:recover
+|2,0,1531102424,,"recover"
+:%s/\/system\///g
+|2,0,1531081372,,"%s/\\/system\\///g"
+:%s/\/system\//g
+|2,0,1531081352,,"%s/\\/system\\//g"
+:Q
+|2,0,1531059586,,"Q"
 :q1
 |2,0,1530950629,,"q1"
 :r !echo "../android-ndk-r17b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-"
@@ -90,16 +106,12 @@ $192.168.42.129:1194
 |2,0,1530555748,,"r !ls"
 :!ls
 |2,0,1530555731,,"!ls"
-:r !pwd
-|2,0,1530555177,,"r !pwd"
 :r 
 |2,0,1530555156,,"r "
 :'<,'>s/\~/\$HOME/g
 |2,0,1530554218,,"'<,'>s/\\~/\\$HOME/g"
 :s/\~/\$HOME/g
 |2,0,1530554181,,"s/\\~/\\$HOME/g"
-:Q
-|2,0,1521386043,,"Q"
 :e .config/i3/i3blocks.conf
 |2,0,1519409107,,"e .config/i3/i3blocks.conf"
 :e .config/sway/i3blocks.conf
@@ -408,20 +420,140 @@ $192.168.42.129:1194
 |2,0,1515787403,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'normal.*1$'"
 :r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'lysol.*0$'
 |2,0,1515787366,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'lysol.*0$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'lysol.*1$'
-|2,0,1515787343,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'lysol.*1$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'lysol.*1'
-|2,0,1515787321,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'lysol.*1'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie '.*data files$'
-|2,0,1515787236,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie '.*data files$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'imper.*1$'
-|2,0,1515787197,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'imper.*1$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'hq.*files$'
-|2,0,1515787129,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'hq.*files$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'hires.*files$'
-|2,0,1515787075,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'hires.*files$'"
 
 # Search String History (newest to oldest):
+?/basename
+|2,1,1532124520,47,"basename"
+?/player
+|2,1,1532086203,47,"player"
+?/empire
+|2,1,1532086195,47,"empire"
+?/day
+|2,1,1532086101,47,"day"
+?/F12
+|2,1,1531874281,47,"F12"
+?/map
+|2,1,1531630797,47,"map"
+?/fram
+|2,1,1531630079,47,"fram"
+?/fps\c
+|2,1,1531630062,47,"fps\\c"
+?/cook
+|2,1,1531732906,47,"cook"
+?/;i\
+|2,1,1531357149,47,";i\\"
+? \ 
+|2,1,1531357009,,"\\ "
+?/vol
+|2,1,1531182211,47,"vol"
+?/error
+|2,1,1531110859,47,"error"
+?/libseccamera
+|2,1,1531110761,47,"libseccamera"
+?/ini
+|2,1,1531110722,47,"ini"
+?/ini\b
+|2,1,1531110719,47,"ini\\b"
+?/\bini
+|2,1,1531110712,47,"\\bini"
+?/\bini\b
+|2,1,1531110695,47,"\\bini\\b"
+?/murata
+|2,1,1531109366,47,"murata"
+?/cbd
+|2,1,1531109358,47,"cbd"
+?/libsdid
+|2,1,1531109351,47,"libsdid"
+?/camera\.
+|2,1,1531109342,47,"camera\\."
+?/libsec
+|2,1,1531109330,47,"libsec"
+?/camera
+|2,1,1531109310,47,"camera"
+?/camer
+|2,1,1531109301,47,"camer"
+?/semco
+|2,1,1531109265,47,"semco"
+?/audienc
+|2,1,1531109255,47,"audienc"
+?/libseccam
+|2,1,1531107748,47,"libseccam"
+? ^#.*
+|2,1,1531105941,,"^#.*"
+? \/system\/
+|2,1,1531081372,,"\\/system\\/"
+? \<etc\>
+|2,1,1531062666,,"\\<etc\\>"
+?/wifi
+|2,1,1531062631,47,"wifi"
+?/libMcClient
+|2,1,1531056950,47,"libMcClient"
+?/libM
+|2,1,1531056936,47,"libM"
+?/source
+|2,1,1531056339,47,"source"
+?/sd
+|2,1,1531053660,47,"sd"
+?/extract
+|2,1,1531050241,47,"extract"
+?/mod+l
+|2,1,1531005184,47,"mod+l"
+?/menu
+|2,1,1530991399,47,"menu"
+?/mod+D
+|2,1,1530991378,47,"mod+D"
+?/system/vendor/firmware/bcm4358A3_V0083.0138_semco.hcd
+|2,1,1531051589,47,"system/vendor/firmware/bcm4358A3_V0083.0138_semco.hcd"
+?/system/vendor/firmware/bcm4358A3_V0083.0138_murata.hcd
+|2,1,1531051589,47,"system/vendor/firmware/bcm4358A3_V0083.0138_murata.hcd"
+?/system/lib64/libseccamera_jni.so
+|2,1,1531051589,47,"system/lib64/libseccamera_jni.so"
+?/system/lib64/libsdid.so
+|2,1,1531051589,47,"system/lib64/libsdid.so"
+?/system/lib64/libMcRegistry.so
+|2,1,1531051589,47,"system/lib64/libMcRegistry.so"
+?/system/lib64/libMcClient.so
+|2,1,1531051589,47,"system/lib64/libMcClient.so"
+?/system/lib64/hw/camera.vendor.exynos5.so
+|2,1,1531051589,47,"system/lib64/hw/camera.vendor.exynos5.so"
+?/system/lib/libseccamera_jni.so
+|2,1,1531051589,47,"system/lib/libseccamera_jni.so"
+?/system/lib/libMcRegistry.so
+|2,1,1531051589,47,"system/lib/libMcRegistry.so"
+?/system/lib/libMcClient.so
+|2,1,1531051589,47,"system/lib/libMcClient.so"
+?/system/lib/hw/camera.vendor.exynos5.so
+|2,1,1531051589,47,"system/lib/hw/camera.vendor.exynos5.so"
+?/system/etc/wifi/nvram_net.txt_semco_b85_a1
+|2,1,1531051589,47,"system/etc/wifi/nvram_net.txt_semco_b85_a1"
+?/system/etc/wifi/nvram_net.txt_semco_a1
+|2,1,1531051589,47,"system/etc/wifi/nvram_net.txt_semco_a1"
+?/system/etc/wifi/nvram_net.txt_semco3rd_b85_a1
+|2,1,1531051589,47,"system/etc/wifi/nvram_net.txt_semco3rd_b85_a1"
+?/system/etc/wifi/nvram_net.txt_semco3rd_a1
+|2,1,1531051589,47,"system/etc/wifi/nvram_net.txt_semco3rd_a1"
+?/system/etc/wifi/nvram_net.txt_semco3rd
+|2,1,1531051589,47,"system/etc/wifi/nvram_net.txt_semco3rd"
+?/system/etc/wifi/nvram_net.txt_semco
+|2,1,1531051589,47,"system/etc/wifi/nvram_net.txt_semco"
+?/system/etc/wifi/nvram_mfg.txt_semco_b85_a1
+|2,1,1531051589,47,"system/etc/wifi/nvram_mfg.txt_semco_b85_a1"
+?/system/etc/wifi/nvram_mfg.txt_semco_a1
+|2,1,1531051589,47,"system/etc/wifi/nvram_mfg.txt_semco_a1"
+?/system/etc/wifi/nvram_mfg.txt_semco3rd_b85_a1
+|2,1,1531051589,47,"system/etc/wifi/nvram_mfg.txt_semco3rd_b85_a1"
+?/system/etc/wifi/nvram_mfg.txt_semco3rd_a1
+|2,1,1531051589,47,"system/etc/wifi/nvram_mfg.txt_semco3rd_a1"
+?/system/etc/wifi/nvram_mfg.txt_semco3rd
+|2,1,1531051589,47,"system/etc/wifi/nvram_mfg.txt_semco3rd"
+?/system/etc/wifi/nvram_mfg.txt_semco
+|2,1,1531051589,47,"system/etc/wifi/nvram_mfg.txt_semco"
+?/system/etc/firmware/audience-es804-fw.bin
+|2,1,1531051589,47,"system/etc/firmware/audience-es804-fw.bin"
+?/system/etc/firmware/audience-es705-fw.bin
+|2,1,1531051589,47,"system/etc/firmware/audience-es705-fw.bin"
+?/system/bin/cbd
+|2,1,1531051589,47,"system/bin/cbd"
 ?/<!--
 |2,1,1531022773,47,"<!--"
 ?/sdk
@@ -442,8 +574,6 @@ $192.168.42.129:1194
 |2,1,1530681119,47,"pkgdir"
 ?/black
 |2,1,1530647094,47,"black"
-?/source
-|2,1,1530599672,47,"source"
 ?/ciph
 |2,1,1530579147,47,"ciph"
 ?/ca.c
@@ -468,8 +598,6 @@ $192.168.42.129:1194
 |2,1,1530555925,,"\\/*\\/"
 ? \~
 |2,1,1530554218,,"\\~"
-?/menu
-|2,1,1530498366,47,"menu"
 ?/AutoEnable
 |2,1,1521661807,47,"AutoEnable"
 ?/configure
@@ -694,134 +822,6 @@ $192.168.42.129:1194
 |2,1,1515990466,47,"skills\\c"
 ?/skills
 |2,1,1515990452,47,"skills"
-?/savedgame\c
-|2,1,1515988906,47,"savedgame\\c"
-?/load
-|2,1,1515987099,47,"load"
-??char
-|2,1,1515985056,63,"char"
-?/loadgame\c
-|2,1,1515983125,47,"loadgame\\c"
-?/save
-|2,1,1515982966,47,"save"
-?/strength
-|2,1,1515977415,47,"strength"
-?/\[Came.*\]
-|2,1,1515964874,47,"\\[Came.*\\]"
-?/share
-|2,1,1515980597,47,"share"
-?/skill\c
-|2,1,1515979911,47,"skill\\c"
-?/\.omw
-|2,1,1515979825,47,"\\.omw"
-?/\w\ \(.*\)(.*)
-|2,1,1515978302,47,"\\w\\ \\(.*\\)(.*)"
-?/\ \(.*\)(.*)
-|2,1,1515978275,47,"\\ \\(.*\\)(.*)"
-?/player
-|2,1,1515977078,47,"player"
-?/enchant\c
-|2,1,1515977029,47,"enchant\\c"
-?/speed\c
-|2,1,1515976963,47,"speed\\c"
-?/travel\c
-|2,1,1515971186,47,"travel\\c"
-?/\[Fog\]
-|2,1,1515964627,47,"\\[Fog\\]"
-?/camera\c
-|2,1,1515964549,47,"camera\\c"
-?/Game
-|2,1,1515920278,47,"Game"
-?/attack
-|2,1,1515920233,47,"attack"
-?/npc
-|2,1,1515913831,47,"npc"
-?/Rober
-|2,1,1515913653,47,"Rober"
-?/better
-|2,1,1515913641,47,"better"
-?/landscape
-|2,1,1515906388,47,"landscape"
-?/Camera
-|2,1,1515901231,47,"Camera"
-?/terrain\c
-|2,1,1515898463,47,"terrain\\c"
-?/man\c
-|2,1,1515898424,47,"man\\c"
-?/Map
-|2,1,1515898418,47,"Map"
-?/fog
-|2,1,1515898327,47,"fog"
-? ")
-|2,1,1515895006,,"\")"
-?/install\c
-|2,1,1515892431,47,"install\\c"
-?/mv
-|2,1,1515880652,47,"mv"
-?/rename
-|2,1,1515880617,47,"rename"
-?/camera
-|2,1,1515873459,47,"camera"
-?/faces
-|2,1,1515872073,47,"faces"
-?/nude\c
-|2,1,1515859745,47,"nude\\c"
-?/hair\c
-|2,1,1515859131,47,"hair\\c"
-?/redone\c
-|2,1,1515856331,47,"redone\\c"
-?/redone
-|2,1,1515856323,47,"redone"
-?/50a
-|2,1,1515855857,47,"50a"
-?/cloth
-|2,1,1515815713,47,"cloth"
-?/armor
-|2,1,1515813175,47,"armor"
-? "
-|2,1,1515812201,,"\""
-? \<pkgver\>
-|2,1,1515812119,,"\\<pkgver\\>"
-?/_n
-|2,1,1515808977,47,"_n"
-?/imperial\c
-|2,1,1515808679,47,"imperial\\c"
-?/imperial
-|2,1,1515808668,47,"imperial"
-? \<data\>
-|2,1,1515807257,,"\\<data\\>"
-?/armory
-|2,1,1515807119,47,"armory"
-?/ucar\c
-|2,1,1515807048,47,"ucar\\c"
-? rMods\/DNA.*\/D
-|2,1,1515806897,,"rMods\\/DNA.*\\/D"
-? rMods.*1\/D
-|2,1,1515806601,,"rMods.*1\\/D"
-? $
-|2,1,1515804829,,"$"
-?/race
-|2,1,1515800741,47,"race"
-?/hair
-|2,1,1515800729,47,"hair"
-?/gui
-|2,1,1515800000,47,"gui"
-?/scaling
-|2,1,1515798675,47,"scaling"
-?/sca
-|2,1,1515798670,47,"sca"
-?/land
-|2,1,1515797286,47,"land"
-?/lands
-|2,1,1515796616,47,"lands"
-?/clothing
-|2,1,1515794050,47,"clothing"
-?/tree
-|2,1,1515791178,47,"tree"
-?/rock
-|2,1,1515789814,47,"rock"
-?/telvan
-|2,1,1515787489,47,"telvan"
 
 # Expression History (newest to oldest):
 
@@ -856,279 +856,584 @@ $192.168.42.129:1194
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	remote 192.168.42.129 1195
-|3,0,0,1,1,0,1530578445,"remote 192.168.42.129 1195"
+"0	CHAR	0
+	git add . -m "jack day 104"
+|3,0,0,0,1,0,1531968326,"git add . -m \"jack day 104\""
 "1	LINE	0
-	-->
-|3,0,1,1,1,0,1531006512,"-->"
+	
+|3,0,1,1,1,0,1531356927,""
 "2	LINE	0
-	  <!-- 
-|3,0,2,1,1,0,1531006511,"  <!-- "
+	alias warband="WINEPREFIX=~/.wine wine /mnt/windows_e/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/mb_warband.exe"
+|3,0,2,1,1,0,1531356926,"alias warband=\"WINEPREFIX=~/.wine wine /mnt/windows_e/Program\\ Files\\ \\(x86\\)/TaleWorlds\\ Entertainment/Mount\\ and\\ Blade\\ Warband\\ -\\ Viking\\ Conquest\\ Reforged\\ Edition/mb_warband.exe\""
 "3	LINE	0
-	/bin/bash: eho: command not found
-|3,0,3,1,1,0,1530759188,"/bin/bash: eho: command not found"
-"4	CHAR	0
-	..//prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+	lib/libseccamera_jni.so
+|3,0,3,1,1,0,1531110770,"lib/libseccamera_jni.so"
+"4	LINE	0
 	
-|3,0,4,0,2,0,1530756624,"..//prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-",""
-"5	LINE	0
-	219b081542068d7e48bb5355dad4c5c8 tenable-2048.gpg
-|3,0,5,1,1,0,1530680648,"219b081542068d7e48bb5355dad4c5c8 tenable-2048.gpg"
-"6	LINE	0
+|3,0,4,1,1,0,1531109417,""
+"5	CHAR	0
+	vendor/lib/libMcClient.so
+	vendor/lib/libMcRegistry.so
 	
-	1.2billion.txtdd
+|3,0,5,0,3,0,1531109413,"vendor/lib/libMcClient.so","vendor/lib/libMcRegistry.so",""
+"6	CHAR	0
+	vendor/lib64/libMcClient.so
+	vendor/lib64/libMcRegistry.so
 	
-|3,0,6,1,3,0,1530680104,"","1.2billion.txtdd",""
+|3,0,6,0,3,0,1531109404,"vendor/lib64/libMcClient.so","vendor/lib64/libMcRegistry.so",""
 "7	LINE	0
-	tenable-2048.gpg
-|3,0,7,1,1,0,1530680089,"tenable-2048.gpg"
+	vendor/firmware/bcm4358A3_V0083.0138_semco.hcd
+|3,0,7,1,1,0,1531109371,"vendor/firmware/bcm4358A3_V0083.0138_semco.hcd"
 "8	LINE	0
-	http://adf.ly/1d3SzB
-|3,0,8,1,1,0,1530650356,"http://adf.ly/1d3SzB"
+	vendor/firmware/bcm4358A3_V0083.0138_murata.hcd
+|3,0,8,1,1,0,1531109367,"vendor/firmware/bcm4358A3_V0083.0138_murata.hcd"
 "9	LINE	0
-	cipher AES-256-CBC
-|3,0,9,1,1,0,1530579149,"cipher AES-256-CBC"
+	lib64/libsdid.so
+|3,0,9,1,1,0,1531109352,"lib64/libsdid.so"
 "q	CHAR	0
 	
 |3,0,26,0,1,0,1521386049,""
 ""-	CHAR	0
 	>
-|3,1,36,0,1,0,1531022785,">"
+|3,1,36,0,1,0,1532124976,">"
 
 # File marks:
-'0  115  0  ~/git_status.txt
-|4,48,115,0,1531050625,"~/git_status.txt"
-'1  50  0  ~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh
-|4,49,50,0,1531049484,"~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh"
-'2  24  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,50,24,0,1531049356,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
-'3  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,51,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
-'4  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,52,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
-'5  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,53,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
-'6  1  0  ~/workspace/android/lineageOS/.repo/manifest
-|4,54,1,0,1531022738,"~/workspace/android/lineageOS/.repo/manifest"
-'7  28  2  ~/workspace/android/lineageOS/.repo/manifests/default.xml
-|4,55,28,2,1531019650,"~/workspace/android/lineageOS/.repo/manifests/default.xml"
-'8  52  0  ~/workspace/android/lineageOS/.repo/manifests/README.mkdn
-|4,56,52,0,1531006478,"~/workspace/android/lineageOS/.repo/manifests/README.mkdn"
-'9  1  0  ~/.config/i3/config
-|4,57,1,0,1531004897,"~/.config/i3/config"
+'0  43  26  ~/.bash_profile
+|4,48,43,26,1532124980,"~/.bash_profile"
+'1  10  27  ~/.bash_profile
+|4,49,10,27,1532124548,"~/.bash_profile"
+'2  10  27  ~/.bash_profile
+|4,50,10,27,1532124548,"~/.bash_profile"
+'3  45  0  ~/.bash_profile
+|4,51,45,0,1532122328,"~/.bash_profile"
+'4  45  0  ~/.bash_profile
+|4,52,45,0,1532122328,"~/.bash_profile"
+'5  45  0  ~/.bash_profile
+|4,53,45,0,1532122328,"~/.bash_profile"
+'6  45  0  ~/.bash_profile
+|4,54,45,0,1532122328,"~/.bash_profile"
+'7  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,55,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+'8  1  0  /tmp/bash-fc.TJY4eY
+|4,56,1,0,1531968328,"/tmp/bash-fc.TJY4eY"
+'9  1  4  ~/Documents/Mount&Blade Warband Savegames/.git/COMMIT_EDITMSG
+|4,57,1,4,1531928504,"~/Documents/Mount&Blade Warband Savegames/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
--'  115  0  ~/git_status.txt
-|4,39,115,0,1531050625,"~/git_status.txt"
--'  1  0  ~/git_status.txt
-|4,39,1,0,1531050593,"~/git_status.txt"
--'  50  0  ~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh
-|4,39,50,0,1531049484,"~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh"
--'  50  0  ~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh
-|4,39,50,0,1531049484,"~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh
-|4,39,1,0,1531049389,"~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh
-|4,39,1,0,1531049389,"~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh"
--'  24  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,39,24,0,1531049356,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
--'  24  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,39,24,0,1531049356,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
--'  24  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,39,24,0,1531049356,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
--'  24  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,39,24,0,1531049356,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,39,1,0,1531049337,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,39,1,0,1531049337,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,39,1,0,1531049337,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
-|4,39,1,0,1531049337,"~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,39,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,39,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,39,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,39,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,39,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,39,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,39,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
-|4,39,1,0,1531049312,"~/workspace/android/lineageOS/device/samsung/zerofltexx/README"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  1  0  ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-|4,39,1,0,1531049266,"~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  21  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,21,2,1531022793,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
--'  307  2  ~/workspace/android/lineageOS/.repo/manifest.xml
-|4,39,307,2,1531022789,"~/workspace/android/lineageOS/.repo/manifest.xml"
+-'  43  26  ~/.bash_profile
+|4,39,43,26,1532124980,"~/.bash_profile"
+-'  10  27  ~/.bash_profile
+|4,39,10,27,1532124877,"~/.bash_profile"
+-'  10  27  ~/.bash_profile
+|4,39,10,27,1532124548,"~/.bash_profile"
+-'  45  0  ~/.bash_profile
+|4,39,45,0,1532124520,"~/.bash_profile"
+-'  45  0  ~/.bash_profile
+|4,39,45,0,1532124520,"~/.bash_profile"
+-'  45  0  ~/.bash_profile
+|4,39,45,0,1532122328,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1532122311,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1532122311,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1532122311,"~/.bash_profile"
+-'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
 
 # History of marks within files (newest to oldest):
+
+> ~/.bash_profile
+	*	1532124978	0
+	"	43	26
+	^	10	28
+	.	43	26
+	+	45	0
+	+	10	27
+	+	38	90
+	+	43	26
+
+> ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
+	*	1532086204	0
+	"	2668	596
+
+> /tmp/bash-fc.TJY4eY
+	*	1531968326	0
+	"	1	0
+
+> ~/Documents/Mount&Blade Warband Savegames/.git/COMMIT_EDITMSG
+	*	1531928498	0
+	"	1	4
+
+> ~/Documents/Mount&Blade Warband Savegames/Native/sg00.sav
+	*	1531927759	0
+	"	25	0
+
+> ~/.config/i3/config
+	*	1531874305	0
+	"	133	38
+	^	133	39
+	.	133	38
+	+	187	0
+	+	189	0
+	+	146	8
+	+	150	0
+	+	146	28
+	+	148	56
+	+	149	30
+	+	148	26
+	+	149	37
+	+	148	21
+	+	149	21
+	+	148	59
+	+	149	28
+	+	133	38
+
+> ~/.config/qutebrowser/config.py
+	*	1531732906	0
+	"	1	1
+
+> ~/Documents/Mount&Blade Warband/rgl_config.txt
+	*	1531630800	0
+	"	53	6
+	.	17	17
+	+	17	17
+
+> ~/.bashrc
+	*	1531357166	0
+	"	21	198
+	^	21	199
+	.	21	143
+	+	16	30
+	+	11	30
+	+	20	15
+	+	20	20
+	+	18	78
+	+	20	14
+	+	13	0
+	+	21	68
+	+	21	67
+	+	21	207
+	+	21	67
+	+	21	88
+	+	21	143
+
+> /etc/pulse/client.conf
+	*	1531190652	0
+	"	25	14
+	^	25	15
+	.	26	0
+	+	26	0
+
+> /etc/pulse/daemon.conf
+	*	1531190621	0
+	"	25	0
+
+> ~/workspace/android/lineageOS/device/samsung/zerofltexx/lineage.dependencies
+	*	1531111258	0
+	"	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zerofltexx/blobs.txt
+	*	1531110861	0
+	"	868	29
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/common-proprietary-blobs.txt
+	*	1531110780	0
+	"	185	4
+	^	456	1
+	.	186	0
+	+	160	13
+	+	160	6
+	+	161	0
+	+	347	2
+	+	3	0
+	+	472	0
+	+	457	0
+	+	186	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/new-ublob.patch
+	*	1531110283	0
+	"	449	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/ublob.txt
+	*	1531110055	0
+	"	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/new-ublobs.txt
+	*	1531110000	0
+	"	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/orig-sblobs.txt
+	*	1531109424	0
+	"	16	0
+	^	89	1
+	.	422	0
+	+	2	0
+	+	6	0
+	+	13	0
+	+	93	0
+	+	245	0
+	+	244	0
+	+	13	0
+	+	80	0
+	+	90	0
+	+	89	0
+	+	93	0
+	+	126	0
+	+	171	0
+	+	126	0
+	+	390	0
+	+	412	0
+	+	419	0
+	+	422	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/new-blob.patch
+	*	1531109187	0
+	"	3	6
+	^	3	7
+	.	3	6
+	+	29	0
+	+	18	0
+	+	29	0
+	+	56	0
+	+	101	0
+	+	56	0
+	+	215	0
+	+	256	0
+	+	292	0
+	+	29	0
+	+	33	0
+	+	29	17
+	+	18	35
+	+	18	0
+	+	3	6
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/orig-blob.patch
+	*	1531107151	0
+	"	210	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/setup-makefiles.sh
+	*	1531106115	0
+	"	51	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/new-sblobs.txt
+	*	1531105866	0
+	"	317	0
+	^	88	1
+	.	88	0
+	+	88	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/new_blobs.txt
+	*	1531105590	0
+	"	20	0
+	.	1	0
+	+	52	0
+	+	51	0
+	+	144	0
+	+	143	0
+	+	230	0
+	+	1	0
+	+	51	0
+	+	143	0
+	+	230	0
+	+	378	0
+	+	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/blob2.patch
+	*	1531105306	0
+	"	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/blob1.patch
+	*	1531105272	0
+	"	108	1
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/blob_sort3.txt
+	*	1531104715	0
+	"	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/blob_sort1.txt
+	*	1531102814	0
+	"	47	0
+	.	408	0
+	+	1	0
+	+	53	0
+	+	56	0
+	+	77	0
+	+	80	0
+	+	86	0
+	+	91	0
+	+	109	0
+	+	110	0
+	+	129	0
+	+	133	0
+	+	143	0
+	+	148	0
+	+	294	0
+	+	319	0
+	+	329	0
+	+	341	0
+	+	408	0
+
+> ~/workspace/android/lineageOS/missing_files.txt
+	*	1531102089	0
+	"	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zero-common/common-proprietary-blobs.txt.bkp
+	*	1531083551	0
+	"	14	0
+
+> ~/workspace/android/lineageOS/device/samsung/zerofltexx/new_blobs.txt
+	*	1531081380	0
+	"	21	0
+	.	1	0
+	+	444	0
+	+	428	0
+	+	424	0
+	+	1	0
+
+> /tmp/bash-fc.9b09dD
+	*	1531074935	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> /tmp/bash-fc.eEmO6m
+	*	1531074923	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> /tmp/bash-fc.s2GXCV
+	*	1531074911	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	2	0
+
+> ~/workspace/android/lineageOS/vendor/samsung/zero-common/zero-common-vendor.mk
+	*	1531074868	0
+	"	16	0
+
+> ~/workspace/android/lineageOS/missing2.txt
+	*	1531060009	0
+	"	1	0
+
+> /missing_files.txt
+	*	1531059319	0
+	"	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zerofltexx/missing_files.txt
+	*	1531059237	0
+	"	19	0
+	^	1	2
+	.	1	1
+	+	1	1
+
+> ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
+	*	1531058999	0
+	"	1	0
+
+> ~/workspace/android/lineageOS/device/samsung/zerofltexx/missing2.txt
+	*	1531057524	0
+	"	20	0
+
+> ~/workspace/android/lineageOS/vendor/cm/build/tools/extract_utils.sh
+	*	1531051808	0
+	"	852	16
+
+> ~/.git/COMMIT_EDITMSG
+	*	1531050899	0
+	"	1	0
 
 > ~/git_status.txt
 	*	1531050621	0
 	"	115	0
 
 > ~/workspace/android/lineageOS/device/samsung/zero-common/extract-files.sh
-	*	1531049469	0
-	"	50	0
+	*	1531050381	0
+	"	59	0
 
 > ~/workspace/android/lineageOS/device/samsung/zerofltexx/extract-files.sh
 	*	1531049344	0
@@ -1136,10 +1441,6 @@ $192.168.42.129:1194
 
 > ~/workspace/android/lineageOS/device/samsung/zerofltexx/README
 	*	1531049299	0
-	"	1	0
-
-> ~/workspace/android/lineageOS/device/samsung/zerofltexx/device-proprietary-blobs.txt
-	*	1531049263	0
 	"	1	0
 
 > ~/workspace/android/lineageOS/.repo/manifest.xml
@@ -1513,14 +1814,6 @@ $192.168.42.129:1194
 	+	2	25
 	+	6	0
 
-> ~/.bashrc
-	*	1530544685	0
-	"	16	0
-	^	18	31
-	.	11	30
-	+	18	30
-	+	11	30
-
 > /tmp/yaourt-tmp-alkis/aur-openvpn-update-systemd-resolved/openvpn-update-systemd-resolved.install
 	*	1530540327	0
 	"	1	0
@@ -1592,328 +1885,3 @@ $192.168.42.129:1194
 	"	24	43
 	.	24	43
 	+	24	43
-
-> ~/git/abs/php-gtk-git/src/php-gtk/build2/build.mk
-	*	1521604970	0
-	"	19	19
-
-> ~/git/abs/php-gtk-git/src/php-gtk/buildconf
-	*	1521604902	0
-	"	27	0
-
-> ~/git/abs/php-gtk-git/PKGBUILD
-	*	1521603773	0
-	"	32	0
-	^	32	1
-	.	32	0
-	+	17	8
-	+	18	55
-	+	5	24
-	+	6	0
-	+	17	0
-	+	32	0
-
-> ~/git/abs/php-gtk-git/src/php-gtk/configure.ac
-	*	1521603730	0
-	"	29	0
-	^	50	3
-	.	50	2
-	+	149	1
-	+	158	0
-	+	50	2
-
-> /tmp/yaourt-tmp-alkis/aur-php-gtk-git/PKGBUILD
-	*	1521601998	0
-	"	33	0
-
-> /tmp/yaourt-tmp-alkis/aur-phoronix-test-suite/phoronix-test-suite.install
-	*	1521601264	0
-	"	1	0
-
-> ~/.xinitrc
-	*	1521512930	0
-	"	5	0
-	^	5	0
-	.	5	0
-	+	4	24
-	+	3	13
-	+	5	0
-
-> ~/git/abs/linux/repos/core-x86_64/PKGBUILD
-	*	1521386612	0
-	"	153	33
-	^	125	10
-	.	125	9
-	+	1	60
-	+	1	0
-	+	22	0
-	+	22	48
-	+	41	17
-	+	57	30
-	+	61	23
-	+	61	6
-	+	22	44
-	+	42	12
-	+	42	16
-	+	22	0
-	+	23	0
-	+	42	12
-	+	63	31
-	+	91	0
-	+	98	44
-	+	97	14
-	+	105	0
-	+	111	2
-	+	119	0
-	+	98	48
-	+	56	0
-	+	55	0
-	+	56	4
-	+	22	0
-	+	21	24
-	+	57	19
-	+	61	25
-	+	63	0
-	+	106	0
-	+	61	0
-	+	58	25
-	+	124	10
-	+	58	69
-	+	5	0
-	+	6	0
-	+	106	0
-	+	89	0
-	+	8	12
-	+	9	0
-	+	64	24
-	+	72	17
-	+	97	20
-	+	64	0
-	+	66	2
-	+	59	27
-	+	65	0
-	+	8	12
-	+	65	0
-	+	25	8
-	+	89	33
-	+	90	23
-	+	59	0
-	+	60	5
-	+	59	25
-	+	60	5
-	+	59	24
-	+	60	69
-	+	15	14
-	+	18	0
-	+	65	0
-	+	99	0
-	+	125	9
-	+	65	0
-	+	99	0
-	+	125	9
-	a	66	0
-
-> ~/git/abs/linux/repos/core-x86_64/src/linux-4.14/.config
-	*	1521386050	0
-	"	815	0
-
-> /etc/default/cpupower
-	*	1521349453	0
-	"	21	0
-	.	8	0
-	+	7	0
-	+	8	0
-
-> /etc/cpufreq-bench.conf
-	*	1521349396	0
-	"	1	0
-
-> /tmp/yaourt-tmp-alkis/aur-catalyst-utils/PKGBUILD
-	*	1521340842	0
-	"	34	14
-	^	22	18
-	.	22	17
-	+	40	13
-	+	54	4
-	+	56	38
-	+	55	73
-	+	56	77
-	+	55	69
-	+	22	17
-
-> /tmp/yaourt-tmp-alkis/aur-amdoverdrivectrl/PKGBUILD
-	*	1521339528	0
-	"	1	0
-
-> ~/.config/menus/applications-merged/q4wine.menu
-	*	1519411870	0
-	"	40	0
-
-> ~/.config/sway/i3blocks.conf
-	*	1519409095	0
-	"	39	0
-	^	30	0
-	.	30	0
-	+	142	0
-	+	115	0
-	+	116	0
-	+	119	0
-	+	142	55
-	+	142	0
-	+	107	13
-	+	76	9
-	+	142	9
-	+	142	0
-	+	143	0
-	+	31	0
-	+	30	0
-
-> ~/.config/sway/config
-	*	1519409051	0
-	"	176	28
-	^	176	46
-	.	176	45
-	+	143	171
-	+	143	22
-	+	144	22
-	+	144	170
-	+	143	22
-	+	143	191
-	+	143	22
-	+	143	188
-	+	176	45
-
-> /etc/pulse/default.pa
-	*	1519405602	0
-	"	39	19
-	.	39	43
-	+	39	43
-
-> /tmp/yaourt-tmp-alkis/aur-console-tdm/PKGBUILD
-	*	1519398698	0
-	"	1	0
-
-> ~/.xsession
-	*	1519398452	0
-	"	1	0
-
-> ~/.session
-	*	1519398446	0
-	"	1	0
-
-> /tmp/yaourt-tmp-alkis/aur-crossover/crossover.install
-	*	1519361382	0
-	"	1	0
-
-> /tmp/yaourt-tmp-alkis/aur-crossover/PKGBUILD
-	*	1519352955	0
-	"	1	0
-
-> /tmp/yaourt-tmp-alkis/aur-deepin-wine/PKGBUILD
-	*	1519348169	0
-	"	39	0
-
-> ~/Desktop/Sid Meiers Civilization VI Rise and Fall.desktop
-	*	1519344932	0
-	"	1	0
-
-> ~/git/abs/wine/repos/multilib-x86_64/PKGBUILD
-	*	1519337875	0
-	"	98	22
-
-> /tmp/fcr-TCUN5y
-	*	1519323948	0
-	"	1	1
-	.	1	1
-	+	1	1
-
-> /tmp/fcr-63YIKt
-	*	1519323927	0
-	"	2	9
-	^	2	10
-	.	2	8
-	+	1	22
-	+	2	8
-
-> /tmp/fcr-l0Leg6
-	*	1519323813	0
-	"	1	2
-	^	1	3
-	.	1	2
-	+	1	2
-
-> /tmp/fcr-PHnnoI
-	*	1519323676	0
-	"	1	4
-	.	1	4
-	+	1	4
-
-> /tmp/fcr-q6nQzl
-	*	1519323660	0
-	"	1	4
-	.	1	4
-	+	1	4
-
-> /tmp/fcr-bvFH35
-	*	1519323639	0
-	"	1	13
-	.	1	13
-	+	1	13
-
-> /tmp/fcr-nBUWbH
-	*	1519323583	0
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> /tmp/fcr-AiuHKQ
-	*	1519323523	0
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> /tmp/fcr-2dyKFv
-	*	1519323434	0
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> /tmp/fcr-OiKunc
-	*	1519323290	0
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> /tmp/fcr-0epG5k
-	*	1519313535	0
-	"	1	1
-	^	1	5
-	.	1	1
-	+	1	5
-	+	1	1
-
-> /tmp/fcr-8UeBBy
-	*	1519313494	0
-	"	1	0
-
-> ~/git/abs/linux/repos/core-x86_64/config
-	*	1519309313	0
-	"	4170	18
-	^	4170	19
-	.	4170	18
-	+	4170	18
-	+	4171	14
-	+	4170	18
-
-> /etc/X11/xorg.conf.d/00-keyboard.conf
-	*	1519276125	0
-	"	8	31
-	^	9	35
-	.	8	31
-	+	7	29
-	+	9	34
-	+	8	31

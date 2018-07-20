@@ -130,7 +130,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # Screen Shot
 
-bindsym $mod+F12 exec scrot 'openmw-%d-%m-%5s.png' -e 'mv $f ~/Documents/screenshots'
+bindsym $mod+F12 exec scrot 'screenshot-%d-%m-%5s.png' -e 'mv $f ~/Documents/screenshots'
 
 # Volume keybindings
 set $volup   21
@@ -144,6 +144,9 @@ bindcode $mod+35 exec "for i in $(pactl list sink-inputs|grep \#|grep '[0-9]*' -
 bindcode $mod+51 exec "for i in $(pactl list sink-inputs|grep \#|grep '[0-9]*' -o);do pactl move-sink-input $i $(pactl list sinks|grep \#|grep -oe '[0-9]*$'|tail -n 1);done"
 #Lock with i3lock
 bindcode $mod+Shift+56 exec i3lock -c 000000 # b key
+#bluetooth connect
+bindcode $mod+Shift+5b exec "bt-device -c 00:11:67:C4:1F:62"
+bindcode $mod+Shift+5d exec "bt-device -d 00:11:67:C4:1F:62"
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode

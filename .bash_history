@@ -1,500 +1,500 @@
-ls --color=never| grep -v Kernel.tar.gz | grep -v build_kernel.sh | xargs rm -R
-ls --color=never| grep -v Kernel.tar.gz | grep -v build_kernel.sh | xargs rm -R
-ls --color=never| grep -v Kernel.tar.gz | grep -v build_kernel.sh | xargs rm -R
-ls
-tar xzf Kernel.tar.gz 
-vim build_kernel.sh 
-vim build_kernel.sh 
-python
-sudo pacman -S lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs
-sudo pacman -S git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip
-sudo pacman -Suy
-sudo pacman -S git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip
-sudo pacman -S git gnupg flex bison gperf sdl wxgtk squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip
-sudo pacman -S lib32-zlib lib32-ncurses lib32-readline gcc-libs-multilib gcc-multilib lib32-gcc-libs
-clear
-cd workspace/android/samsung/
-ls
-cd kernel
-ls
-source build_kernel.sh 
-vim build_kernel.sh 
-source build_kernel.sh 
-echo $ARCH
-ls arch/arm64/boot/
-find . -name zIamge
-find . |grep zImage
-make all
-ls
-find . | grep vmlinux
-find . | grep vmlinux$
-find . | grep \.gz
-find . | grep \.gz$
-make -j4 all
-make menuconfig
-make -j4 all
-make clean
-make -j4 all
-ls arch/arm64/boot/
-ls arch/arm64/boot/dts/
-make mrproper
-ls
 man tee
-source build_kernel.sh | tee build.log
-make menuconfig
-vim build_kernel.sh 
-make -j4
-adb
-sudo pacman -Ss adb
-sudo pacman -Ss adb|grep adb
-yaourt -Ss adb |grep adb
-yaourt -Ss adb |less
-sudo pacman -S android-tools
-sudo pacman -Suy
-sudo pacman -Suy adb
-sudo pacman -S adb
-sudo pacman -S android-tools
-odin
-yaourt -S heimdall
-heimdall-frontend 
-adb devices
-adb devices
-adb devices
-adb devices
-adb
-adb devices -l
-adb devices -l
-sudo pacman -S android-udev
-adb devices -l
-adb devices -l
-adb devices -l
-adb devices -l
-sudo pacman -S android-file-transfer
-lsblk
-ls /dev
-mkdir ~/my-phone
-aft-mtp-mount ~/my-phone/
-adb devices
-adb devices
-aft-mtp-mount ~/my-phone/
-sudo aft-mtp-mount ~/my-phone/
-pacman -Ss gvfs
-sudo pacman -S gvfs-mtp
-sudo pacman -S thunar-archive-plugin
-sudo pacman -S tumbler
-sudo pacman -S ark xarchiver file-roller
-sudo pacman -S ark xarchiver file-roller
-sudo pacman -S ark  file-roller
-sudo pacman -S mtp-fs
-sudo pacman -S mtpfs
-vim /etc/fuse.conf
-sudo vim /etc/fuse.conf
-mtpfs -o allow_other ~/mnt
-ping google.com
-ping google.com
-adb devices -l
-heimdall
-heimdall-frontend 
-adb devices -l
-adb devices -l
-aft-mtp-mount  ~/my-phone/
-ls ~/my-phone/
-pacman -Q libmtp
-mtp-detect 
-mtp-connect 
-mtp-reset 
-mtp-hotplug
-mtp-detect 
-mtpfs -o allow_other ~/my-phone/
-sudo pacman -Rucs mtpfs
-atf-mtp-mount ~/my-phone/
-sudo pacman -S android-file-transfer
-sudo pacman -Ql android-file-transfer
-aft-mtp-mount ~/my-phone/
-sudo aft-mtp-mount ~/my-phone/
-ls /home/alkis/my-phone/ -l
-ls /home/alkis/my-phone/ -ld
-chown alkis:alkis /home/alkis/my-phone/
-sudo chown alkis:wheel /home/alkis/my-phone/
-man chown
-sudo chown alkis:wheel /home/alkis/my-phone/
-sudo ls /home/alkis/my-phone/
-sudo ls /home/alkis/my-phone/ -ld
-sudo rm -R ~/my-phone/
-sudo rm -Rff ~/my-phone/
-sudo rm -Rrf ~/my-phone/
-man rm
-man rmdir
-sudo rmdir ~/my-phone/
-sudo rmdir ~/my-phone/
-fuser ~/my-phone/
-sudo fuser ~/my-phone/
-sudo fuser -k ~/my-phone/
-ps aux
-ps aux
-killall gvfs
-killall gvfsd
-ps aux
-kill 603049
-kill 3049
-ps aux
-sudo rmdir ~/my-phone/
-mkdir ~/my-phone
-ps aux
-ps aux |less
-adb devices
-adb devices
-mtp-detect
-mtp-connect 
-man mtp-connect 
-sudo systemctl restart gvfsd
-ps aux
-aft-mtp-mount ~/my-phone/
-aft-mtp-cli 
-ps aux
-kill 17086
-ls -ld ~/my-phone/
-mtp-detect 
-mtp-connect 
-mtpfs -o allow_other ~/my-phone/
-ps aux
+cd $LAOS
 ls
-mtp-files
-sudo pacman -Rucs android-file-transfer
-pacman -Fo mtp-connect
-pacman -Qo mtp-connect
-man pacman 
-man heimdall
-man heimdall
-heimdall --help
-adb
-adb devices -l
-adb devices -l
-reboot sideload
-reboot sideload
-adb devices -l
-adb devices -l
-adb devices -l
-adb devices -l
-adb devices -l
-mtp-connect 
-adb devices -l
-adb devices -l
-adb
-adb reboot sideload
-adb root
-sudo adb root
+cd device/samsung/zerofltexx/
+ls
+clear
+ls
+ls
 adb shell
-adb root
-adb devices -l
 adb shell
-adb
-adb reboot recovery
-less .config
-cd ../bootimg/
+pull /sdcard/new_blobs.txt .
+adb pull /sdcard/new_blobs.txt .
+vim new_blobs.txt 
+adb push new_blobs.txt /sdcard
+adb shell
+pull /sdcard/new_blobs.txt .
+pull /sdcard/new_blobs.txt ./
+adb pull /sdcard/new_blobs.txt .
 ls
-rm boot.img
+cat new_blobs.txt 
+cat ../zero-common/common-proprietary-blobs.txt
+adb shell
 ls
-md5sum boot.img.orig 
-cp boot.img{.orig,}
+cd ..
+cd zero-common/
 ls
-abootimg -u boot.img -k Image 
-md5sum boot.img
-adb reboot recovery 
+sort new_blobs.txt 
+vim new_blobs.txt 
+sorted new_blobs.txt 
+sort new_blobs.txt 
+vim new_blobs.txt 
+sort new_blobs.txt |
 ls
-abootimg -u boot.img -k Image 
-adb reboot recovery
-cp boot.img.orig boot.img
-rm boot.img
+man diff
+info diff
+cd ../zerofltexx/
 ls
-rm Image 
+vim lineage.dependencies 
+cat *.mk |less
+cd ../zero-common/
+cat *.mk |less
+grep -oE "[[:alnum:]\.\_\-]*$" device/samsung/zerofltexx/missing_files.txt > $LAOS/device/samsung/zerofltexx/missing2.txt 
+grep -oE "[[:alnum:]\.\_\-]*$" $LAOS/missing_files.txt > $LAOS/device/samsung/zerofltexx/missing2.txt 
+adb push device/samsung/zerofltexx/missing2.txt /sdcard
+grep -oE "[[:alnum:]\.\_\-]*$" $LAOS/missing_files.txt > $LAOS/missing2.txt 
+adb push $LAOS/missing2.txt /sdcard
 ls
-rm boot.img.new 
-cp boot.img.orig boot.img
-abootimg -u boot.img -k Image 
-adb reboot recovery
-cp boot.img.orig boot.img
-cat ../kernel/build_kernel.sh 
+cd $LAOS
 ls
-abootimg -u boot.img -k Image 
-adb reboot recovery
-abootimg -u boot.img -k Image 
-adb reboot recovery
+vim missing2.txt 
+adb shell
+adb shell
 ls
-cp boot.img.orig boot.img
-abootimg -u boot.img -k Image 
-adb reboot recovery
-abootimg -u boot.img -k Image 
-adb reboot recovery
-adb reboot recovery
-adb | less
-adb shell bu help
-adb shell bu --help
-adb | less
+cd device/samsung/zerofltexx/
+ls
+ls
+source extract-files.sh | tee blobs.txt 
+ls
+rm -rf $LAOS/vendor/samsung/zero-common/proprietary/*
+source extract-files.sh | tee blobs.txt 
+vim blobs.txt 
+ls
+rm blobs.txt 
+cd ..
+ls
+cd zero
+cd zero-common/
+vim common-proprietary-blobs.txt
+cd ../zerofltexx/
+ls
+source extract-files.sh |tee blobs.txt
+vim blobs.txt 
+adb pull /sdcard/cbd .
+adb shell
+adb pull /sdcard/cbd .
+ls
+mv cbd $LAOS/vendor/samsung/zero-common/proprietary/sbin/
+cd $LAOS/vendor/samsung/zero-common/proprietary/sbin/
+ls
+cd ..
+ls
+
+find . -type f
+find . -type f|less
+croot
+cd $LAOS
+fuser -cu /tmp
+kill 12344
+kill 551
+sudo umount /tmp
+fuser -cu /tmp
+ps aux | grep 19828
+sudo systemctl stop sound
+sudo systemctl stop pulseaudio
+systemctl
+pulseaudio --stop
+man pulseaudio
+pulseaudio --kill
+fuser -cu /tmp
+man pulseaudio
+fuser -cu /tmp
+kill 20834  && sudo umount /tmp
+fuser -cu /tmp
+pulseaudio --kill && sudo umount /tmp
+pasuspender 
+pasuspender -s pulseaudio
+pasuspender -s=pulseaudio
+pasuspender --server=pulseaudio
+which pulseaudio
+pasuspender -- $(which pulseaudio)
+pulseaudio --kill && sudo umount /tmp
+system ctl --user mask pulseaudio.socket
+systemctl --user mask pulseaudio.socket
+pulseaudio --kill && sudo umount /tmp
+ls /tmp
+rm /tmp/*
+rm -rf /tmp/*
+sudo rm -rf /tmp/*
+ls /tmp
+sudo umount /tmp
+mount
+ls -a /tmp
+sudo vim /etc/pulse/client.conf 
+pulseaudio --kill
+sudo umount /tmp
+fuser -cu /tmp
+ps aux | grep 22015
+sudo umount /tmp
+fuser -cu /tmp
+sudo umount /tmp
+mount
+ls /mnt
+ls tmp
+ls /tmp
+ls /tmp -a
+cat /tmp/.X0-lock 
+kill 387
+sudo kill 387
+man sort
+sudo pulseaudio --kill
+sudo pulseaudio --start
+ pulseaudio --start
+ pulseaudio --status
+sudo  pulseaudio --start --system
+sudo systemctl start pulseaudio
+pavucontrol 
+rm -rf .config/pulse/*
+pulseaudio --kill
+pulseaudio --start
+pulseaudio --status
+man pulseaudio
+pulseaudio --check
+sudo pulseaudio --kill
+sudo pulseaudio --system -start 
+sudo pulseaudio --system --start 
+sudo pulseaudio --system 
+pulseaudio -vvv
+ps aux |grep pulseaudio
+pamixer
+pamixer --get-volume
+bluetoothctl 
+pamixer
+pamixer list-sinks
+pamixer --list-sinks 
+pamixer --sink 2
+pamixer --sink 1
+pamixer --sink 1
+pamixer --sink 0
+pactl 
+pactl --help
+pactl list
+pactl list sinks
+pactl 
+pactl --hellp
+pactl --help
+pactl set-sink-2
+pactl set-sink-"JBL E25BT"
+pactl set-sink-port 2
+pactl set-input-mute 0
+pactl set-input-mute 1
+pactl set-input-mute 2 toggle
+pactl set-input-mute 1 toggle
+pactl set-input-mute 0 toggle
 clear
-repo
-pacman -Q repo
-pacman -Q sdk
-pacman -Q |grep sdk
-pacman -Q |grep sdk|cut -f1 -d " "
-pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql
-pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql|grep bin
-pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql
+vim .bashrc
 clear
+pulseaudio --kill
+pulseaudio --kill
+pulseaudio --start
+systemctl
+amixer --help
+amixer -D 2
+amixer -D 1
+amixer -D 0
 clear
-pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql
-pacman -Q |grep sdk|cut -f1 -d " "| xargs pacman -Ql|repo
+amixer 
+amixer -D headphone
+amixer -D master
+pactl list sinks
+pactl list sinks
+pactl 
+pactl --help
+pamixer --help
+pamixer --set-vomlume 0
+pamixer --set-volume 0
+pamixer --set-volume 55
+pamixer --set-volume 100
+pamixer 
+pamixer --sink 0
+pamixer --sink 1
+pamixer --sink 2
+pamixer --list-sinks
+pamixer --sink 0
+pamixer --sink 1
+pamixer -t
+pamixer -t
+man pactl
+man pamixer
+man pamixer 
+vim /etc/pulse/daemon.conf 
+vim /etc/pulse/client.conf 
+sudo vim /etc/pulse/client.conf 
+sudo pulseaudio --kill 
+sudo pulseaudio --start
+sudo pulseaudio  --system
+ pulseaudio  --start
+ pulseaudio  --check
+sudo  pulseaudio  --check
+sudo  pulseaudio  --vvv
+man pulseaudio
+pulseaudio --kill
+ pulseaudio  --start
+ps aux
+pactl 
+pactl --help
+pamixer 
+pamixer --sink 1
+pamixer --sink 0
+pamixer --sink 1
+pulseaudio --kill
+pulseaudio --start
+ps aux
+kill 10838
+ps aux
+vim .config/i3/config 
+bluetoothctl
+pamixer --
+pamixer --list-sinks
+pamixer --list-sinks
+pamixer --list-sinks
+pamixer --list-sources
+pamixer --source 0
+pamixer --source 1
+pamixer --source 2
+pamixer --sink 0
+pamixer --sink 1
+pamixer --sink 2
+pulseaudio --kill
+pulseaudio --start
+ps aux | pulseaudio
+ps aux | grep pulseaudio
+kill 2826
+sudo kill 2826
+sudo kill 3413
+ps aux | grep pulseaudio
+kill 3789
+ps aux | grep pulseaudio
+pulseaudio --kill
+ps aux | grep pulseaudio
+clear
+ls
 clear
 bluetoothctl
 clear
-df -h
-ifconfig
 ls
-ls /mnt/
-ls /mnt/windows_e/
-du -h /mnt/windows_e/|grep -E "\/mnt\/[\w \s \.]"
-du -h /mnt/windows_e/|grep -E "\/mnt\/[\w \s \.]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/[ \w \s \. ]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/ [ \w \s \. ]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/[ a-zA-Z \s \. ]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/[ a-zA-Z \s \. \- ]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/[ a-zA-Z \s \. \_ ]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[ \w \s \. \_ \- ]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[ \w \s \. \_  ]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[ \w ]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[\w]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[\w]"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/\w"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z]"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-z]+"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-z0-9]"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9]"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\.]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\.\s]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\. \s]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\. \s \( \)]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\. \s \( \)]*"
-du -h /mnt/windows_e/|grep -E "\/mnt\/windows_e\/[a-zA-Z0-9\. \s \( \)]*$"
+clear
+pamixer --sink 0
+pamixer --sink 1
+pamixer --sink 2
+clear
+oss
+pamixer --sink 2
+pamixer --sink 1
+pamixer --sink 0
+pactl
+pactl --help
+reboot
+bluetoothctl
+bluetoothctl
+bluetoothctl
+bluetoothctl
+clear
+clear
+bt-device --help
+bt-adapter -l
+bt-device -l
+bt-device -h
+bt-device -l
+xev
+sudo pacman -Suy
+brctl addbr br0
+man ip link 
+vim .config/i3/config 
+vim .config/i3/config 
+warband 
+reboot
+lsblk
 ls /mnt
-mkdir /mnt/windows10
-sudo mkdir /mnt/windows10
-sudo mount /dev/sda1 /mnt/windows10/
+ls /mnt/LFS
+cd /mnt/windows10/
+ls
+cd ..
+cd ..
+cd
+sudo mount /dev/sda1 /mnt/windows10
 reboot
-sudo grub-install --boot-directory=/boot /dev/sdb7
-grub-install --target=i386-pc /dev/sdb7
-sudo grub-install --target=i386-pc /dev/sdb7
-sudo fdisk /dev/sdb
-cgdisk 
-cgdisk /dev/sdb
-sudo cgdisk /dev/sdb6
-sudo cgdisk /dev/sdb
-fidsk /dev/sdb
-fdisk /dev/sdb
-sudo fdisk /dev/sdb
-parted /dev/sdb6
-sudo parted /dev/sdb6
-sudo parted /dev/sdb
-sudo parted /dev/sdb6
-sudo parted /dev/sdb
-sudo parted
-sudo parted /dev/sdb
-man parted
-info parted
-sudo parted /dev/sdb
-grub-bios-setup 
-grub-bios-setup --help
-grub-install --help
-sudo grub-install --force /dev/sdb7
-dd if=/dev/sdb7 of=boot.bkp
-sudo dd if=/dev/sdb7 of=boot.bkp
-sudo umount /boot
-reboot
+sudo mount /dev/sda1 /mnt/windows10
+genfstab -U /
+genfstab -U / |tail -n5
+genfstab -U / |tail -n6
+genfstab -U / |tail -n6|head -n2
+su -c "genfstab -U / |tail -n6|head -n2 >> /etc/fstab"
+ls /mnt/windows10
+ls /mnt/windows10/Users/vini\ sc/Downloads/
+ls /mnt/windows10/Users/vini\ sc/Downloads/|grep blade
+ls /mnt/windows10/Users/vini\ sc/Downloads/|grep \.iso
+ount -o loop /mnt/windows10/Users/vini\ sc/Downloads/Mount.and.Blade.Warband.Viking.Conquest.Reforged.Edition-SKIDROW/sr-mbvcre.iso 
+man fusermount
+mkdir warbandiso
+fusermount /mnt/windows10/Users/vini\ sc/Downloads/Mount.and.Blade.Warband.Viking.Conquest.Reforged.Edition-SKIDROW/sr-mbvcre.iso warbandiso/
+mount -o loop /mnt/windows10/Users/vini\ sc/Downloads/Mount.and.Blade.Warband.Viking.Conquest.Reforged.Edition-SKIDROW/sr-mbvcre.iso warbandiso/
+sudo mount -o loop /mnt/windows10/Users/vini\ sc/Downloads/Mount.and.Blade.Warband.Viking.Conquest.Reforged.Edition-SKIDROW/sr-mbvcre.iso warbandiso/
+ls warbandiso/
+cd warbandiso/
+ls
+ls /bin |grep wine
+man winetricks
+echo $WINEPREFIX
+man winetricks
+man winetricks
+~/.local/share/wineprefixes/warband/ winetricks
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winefile 
+ls
+cp skidrow/* ~/.local/share/wineprefixes/warband/drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/
+cd ~/.local/share/wineprefixes/warband/drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winefile 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winefile 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winefile &
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winetricks 
+locale
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winecfg
+WINEPREFIX=~/.local/share/wineprefixes/warband/ q4wine
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
+man wine
+python
+bluetoothctl
+sudo systemctl restart  bluetooth
+sudo systemctl status  bluetooth
+sudo systemctl stop  bluetooth
+sudo systemctl status  bluetooth
+sudo systemctl restart  bluetooth
+sudo systemctl status  bluetooth
+bluetoothctl
+xrandr
+man xrandr
+ps aux
+killall wine
+warband
+warband
+warband
+warband
+ls
+cd .local/share/wineprefixes/warband/drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest/
+ls
+cd Documents/Mount\&Blade\ Warband
+ls
+vim rgl_config.txt 
+wineprefixes/warband/ wine mb_warband.exe 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winetricks
+cd ~/.local/share/wineprefixes/warband/
+cd drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/
+ls
+clear
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winetricks
+sudo pacman -Ss mono
+sudo pacman -S wine-mono
+ls
+ls ~/
+ls ~/Documents/Mount\&Blade\ Warband
+rm  ~/Documents/Mount\&Blade\ Warband/rgl_config.txt 
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
+man wine
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine unins000.exe 
+ls
+rm *
+cd ..
+cd ..
+cd..
+cd
+sudo umount warbandiso/
+ls
+cd Downloads/
+ls
+cd Mount.and.Blade.Warband.Viking.Conquest-SKIDROW\[rarbg\]/
+ls
+sudo mount -o loop sr-mandbvc.iso ~/warbandiso/
+cd 
+cd Downloads/
+cd Mount.and.Blade.Warband.Viking.Conquest-SKIDROW\[rarbg\]/
+ls
+cd
+cd warbandiso/
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine setup.exe 
+cd ..
+cd .local/share/wineprefixes/warband/drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/
+ls
+ls
+cd ..
+ls
+find .
+cd Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest/
+ls
+clear
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
+cp ~/warbandiso/skidrow/* .
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine DirectX/DXSETUP.exe 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winetricks
+mount
+clear
+ls
+cd ..
+ls
+cd Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest/
+ls
+clear
+ls
+rm ../Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/ -rf
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warba.exe
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warba.exe
+echo 'alias warband="WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warba.exe"' > ~/.bashrc
+vim ~/.bashrc
+vim ~/.bashrc 
 cd
 ls
-cd git
+man git checkout
+git checkout -- .bashrc
 ls
-cd abs
+vim .bashrc
+cd ~/.local/share/wineprefixes/warband/ 
+cd drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest/
 ls
-cd linux/trunk/
-ls
-makepkg -i
-ls /boot
-sudo pacman -S linux linux-docs linux-headers
-sudo pacman -Suy
-sudo lightdm
-parted
-exit
-less /boot/grub/grub.cfg 
-sudo less /boot/grub/grub.cfg 
-sudo less /boot/grub/grub.cfg 
-mkinitcpio --help
-cd git/abs/linux/trunk/
-makepkg -i
-sudo grub-mkconfig -o /boot/grub/grub.cfg 
-reboot
-genfstab -U /
-cat /etc/fstab 
+echo 'alias warband="WINEPREFIX=~/.local/share/wineprefixes/warband/ wine $(pwd)/mb_warba.exe"' >> ~/.bashrc
+vim ~/.bashrc 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine $(pwd)/mb_warba.exe
+man pwd
+pwd
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine "$(pwd)"/mb_warba.exe
+vim ~/.bashrc
+warband
+vim ~/.bashrc
+source ~/.bashrc
+warband
+vim ~/.bashrc
+warband
+vim ~/.bashrc
+warband
+source ~/.bashrc
+warband
+python 
+date
+python
+bluetoothctl
+python 
 clear
-ls
-ls /boot
-cd workspace/
-mkdir bootpc
-cd bootpc/
-ls
-cp /boot/initramfs-linux-custom-fallback.img .
-ls
-file initramfs-linux-custom-fallback.img 
-gunzip initramfs-linux-custom-fallback.img 
-mv initramfs-linux-custom-fallback.img initramfs-linux-custom-fallback.gz
-gunzip initramfs-linux-custom-fallback.gz 
-ls
-file initramfs-linux-custom-fallback 
-cpio --help
-cpio -i < initramfs-linux-custom-fallback 
-ls
-cd etc/
-ls
-vim fstab 
-vim fstab 
-vim mtab 
-ls -l
-sudo pacman -S linux linux-headers linux-docs
-ping google.com
-sudo pacman -Ss
-sudo pacman -Suy
-sudo pacman -Suy
-sudo pacman -S linux linux-headers linux-docs
-sudo grub-install 
-sudo grub-install  /dev/sdb
-sudo grub-mkconfig -o /boot/grub/grub.cfg 
-sudo grub-mkconfig
-ls
-find /boot
-mkinitcpio --help
-mkinitcpio -L
-cd 
-cd git/abs/linux/trunk/
-makepkg -i
-sudo makepkg -i
-makepkg -i
-grub-mkconfig > /boot/grub/grub.cfg 
-sudo grub-mkconfig > /boot/grub/grub.cfg 
-grub-mkconfig -o /boot/grub/grub.cfg 
-sudo grub-mkconfig -o /boot/grub/grub.cfg 
-reboot
-shutdown -h now
-ifconfig
-man repo
-pacman -Qo repo
-gnome-system-monitor &&
-gnome-system-monitor &
-venv
-v
-xev
-cd workspace/android/lineageOS/
-repo sync
-trickle -d 500 repo sync
-man trickle
-trickle -d 500 repo sync
-trickle -d 500 repo sync
-trickle -d 500 repo sync
-trickle -d 500 repo sync
-vim .repo/manifest.xml 
-vim .repo/manifest.xml 
-trickle -d 500 repo sync
-trickle -d 500 repo sync -c
-vim .repo/manifest.xml 
-repo sync -c
-repo sync -c
-ping google.com
-repo sync -c
-repo sync -c
-ping google.com
-ls
-ls
-du -hcs .
-ls .repo/
-xdiskusage .
-ls
-source venv/bin/activate
-source build/envsetup.sh
-breakfast zerofltexx
-adb devices
-adb shell
-ls
-cd device/samsung/zerofltexx/
-ls
-less extract-files.sh 
-less ../zero-common/extract-files.sh 
-which adb
-source extract-files.sh 
-ls
-find ../../../vendor/samsung/
-ls -r ../../../vendor/samsung/
-man ls
-ls -R ../../../vendor/samsung/
-ls -R ../../../vendor/samsung/ -l
-ls -R ../../../vendor/samsung/ -lh
-echo "export USE_CCACHE=1" >> ~/.bashrc
-export USE_CCACHE=1
-ccache -M 50G
-echo 'export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"' >> ~/.bashrc
-export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
-croot
-man time
-time ls
-gpg --list-secret-keys
-brunch zerofltexx
-cd workspace/android/lineageOS/
-ls
-brunch zerofltexx
-croot
-source venv/bin/activate
-which python
-source build/envsetup.sh 
-breakfast zerofltexx
-croot
-brunch zerofltexx
-sudo pacman -S ninja
-brunch --help
-brunch -h
-brunch zerofltexx
-repo sync -c
-source build/envsetup.sh 
-breakfast zerofltexx
-croot
-brunch zerofltexx
-find . | grep hwui_static_deps\.mk
-find . | grep -e "hwui_static_deps\.mk"
-vim .repo/manifest
-vim .repo/manifest.xml 
-repo sync -c
-repo sync -c
-repo sync -c
-brunch zerofltexx
-ls
-ls -a
-source build/envsetup.sh 
-breakfast zerofltexx
-croot
-lunch zerofltexx
-brunch zerofltexx
-make clean
-source build/envsetup.sh 
-breakfast zerofltexx
-croot
-brunch zerofltexx
-cd device/samsung/zerofltexx/
-source extract-files.sh 
-source extract-files.sh |tee blobs.txt
-grep -e error blobs.txt 
-grep -e error blobs.txt | grep -i libmcclient 
-adb shell
-grep -e error blobs.txt |grep so
-grep -e error blobs.txt |grep \..so
-grep -e error blobs.txt |grep \.so
+python
 clear
-grep -e error blobs.txt |grep \.so
-adb shell
+sudo rfkill unblock bluetooth
+/usr/lib/bluetooth/bluetoothd -n
+sudo pacman -Suy
+/usr/lib/bluetooth/bluetoothd --help
+sudo systemctl stop bluetooth
+sudo systemctl status  bluetooth
+sudo systemctl start  bluetooth
+sudo systemctl status  bluetooth
+rfkill list
+clear
+rfkill list
+man rfkill
+rfkill list
+sudo systemctl start bluetooth
+sudo systemctl stop bluetooth
+vim Documents/Mount\&Blade\ Warband\ Savegames/Native/last_savegame_backup.sav 
