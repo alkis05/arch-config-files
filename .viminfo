@@ -11,27 +11,61 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/basename
+~Msle0/\<resp\>
 
 # Last Substitute Search Pattern:
-~MSle0&\ 
+~MSle0~&_FileKey
 
 # Last Substitute String:
-$\\\ 
+$_RepoKey
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1532124980,,"wq"
+|2,0,1532155167,,"wq"
 :q
-|2,0,1531968328,,"q"
+|2,0,1532153628,,"q"
+:%s/_FileKey/_RepoKey/g
+|2,0,1532153475,,"%s/_FileKey/_RepoKey/g"
+:w
+|2,0,1532152848,,"w"
+:redo
+|2,0,1532152748,,"redo"
+:help redo
+|2,0,1532152022,,"help redo"
+:help u
+|2,0,1532151997,,"help u"
+:help c-support
+|2,0,1532150606,,"help c-support"
+:c-support
+|2,0,1532150600,,"c-support"
+:\if
+|2,0,1532150437,,"\\if"
+:PluginUpdate
+|2,0,1532150271,,"PluginUpdate"
+:help plugininstall
+|2,0,1532150231,,"help plugininstall"
+:help plugin
+|2,0,1532150210,,"help plugin"
+:help completaion
+|2,0,1532150201,,"help completaion"
+:help \im
+|2,0,1532150167,,"help \\im"
+:\im
+|2,0,1532150152,,"\\im"
+:Q
+|2,0,1532150109,,"Q"
+:'<,'> !xclip -p
+|2,0,1532131048,,"'<,'> !xclip -p"
+:'<,'> %y 
+|2,0,1532131015,,"'<,'> %y "
+:'<,'> %y !xclip -p 
+|2,0,1532131006,,"'<,'> %y !xclip -p "
 :s/\ /\\\ /g
 |2,0,1531357009,,"s/\\ /\\\\\\ /g"
 :r !pwd
 |2,0,1531356942,,"r !pwd"
 :q!
 |2,0,1531356509,,"q!"
-:w
-|2,0,1531331431,,"w"
 :%s/^#.*//g
 |2,0,1531105941,,"%s/^#.*//g"
 :%s/^\#
@@ -42,8 +76,6 @@ $\\\
 |2,0,1531081372,,"%s/\\/system\\///g"
 :%s/\/system\//g
 |2,0,1531081352,,"%s/\\/system\\//g"
-:Q
-|2,0,1531059586,,"Q"
 :q1
 |2,0,1530950629,,"q1"
 :r !echo "../android-ndk-r17b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-"
@@ -142,8 +174,6 @@ $\\\
 |2,0,1516389836,,"!echo https://developer.android.com/studio/releases/emulator.html|xclip"
 :%
 |2,0,1516389787,,"%"
-:help c-support
-|2,0,1516132431,,"help c-support"
 :'<,'>s/\*/\* [ ]/g
 |2,0,1516157529,,"'<,'>s/\\*/\\* [ ]/g"
 :'<,'>s/target/pwd
@@ -390,38 +420,32 @@ $\\\
 |2,0,1515788038,,"r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*compilation$'"
 :r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*faces$'
 |2,0,1515787997,,"r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*faces$'"
-:r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*hair$'
-|2,0,1515787968,,"r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*hair$'"
-:r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*face$'
-|2,0,1515787942,,"r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*face$'"
-:r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*files$'
-|2,0,1515787936,,"r !find ~/.local/share/MorrowindMods/npcMods -type d|grep -ie '.*files$'"
-:r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie '.*files$'
-|2,0,1515787919,,"r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie '.*files$'"
-:r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie 'vurts.*files$'
-|2,0,1515787810,,"r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie 'vurts.*files$'"
-:r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie 'plant.*files$'
-|2,0,1515787802,,"r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie 'plant.*files$'"
-:r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie 'plant.*1$'
-|2,0,1515787770,,"r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie 'plant.*1$'"
-:r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie '.*nature$'
-|2,0,1515787722,,"r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie '.*nature$'"
-:r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie '.*nature'
-|2,0,1515787713,,"r !find ~/.local/share/MorrowindMods/landscapeMods -type d|grep -ie '.*nature'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie '.*nature'
-|2,0,1515787693,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie '.*nature'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'telva.*_textures$'
-|2,0,1515787524,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'telva.*_textures$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'strong.*0$'
-|2,0,1515787475,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'strong.*0$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'main.*tex$'
-|2,0,1515787444,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'main.*tex$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'normal.*1$'
-|2,0,1515787403,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'normal.*1$'"
-:r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'lysol.*0$'
-|2,0,1515787366,,"r !find ~/.local/share/MorrowindMods/housingMods -type d|grep -ie 'lysol.*0$'"
 
 # Search String History (newest to oldest):
+? _FileKey
+|2,1,1532153475,,"_FileKey"
+?/File
+|2,1,1532153448,47,"File"
+? \<resp\>
+|2,1,1532151707,,"\\<resp\\>"
+? }
+|2,1,1532151698,,"}"
+?/line
+|2,1,1532151208,47,"line"
+?/csupport-hotkeys
+|2,1,1532150674,47,"csupport-hotkeys"
+?/\\im
+|2,1,1532150476,47,"\\\\im"
+?/f
+|2,1,1532150132,47,"f"
+? \<repo_name\>
+|2,1,1532144168,,"\\<repo_name\\>"
+? '"}'
+|2,1,1532144167,,"'\"}'"
+?/\$2
+|2,1,1532130916,47,"\\$2"
+?/\$
+|2,1,1532130892,47,"\\$"
 ?/basename
 |2,1,1532124520,47,"basename"
 ?/player
@@ -798,30 +822,6 @@ $\\\
 |2,1,1516130648,,"\\(optarg\\)"
 ? getopts
 |2,1,1516109638,,"getopts"
-? sprintf
-|2,1,1516109590,,"sprintf"
-? optarg
-|2,1,1516108527,,"optarg"
-? \<opt\>
-|2,1,1516108171,,"\\<opt\\>"
-?/header
-|2,1,1516042660,47,"header"
-?/main
-|2,1,1516042508,47,"main"
-?/set
-|2,1,1516098763,47,"set"
-?/merchant
-|2,1,1516038307,47,"merchant"
-?/merchan
-|2,1,1516038289,47,"merchan"
-?/equip
-|2,1,1516013835,47,"equip"
-?/f12\c
-|2,1,1516011853,47,"f12\\c"
-?/skills\c
-|2,1,1515990466,47,"skills\\c"
-?/skills
-|2,1,1515990452,47,"skills"
 
 # Expression History (newest to oldest):
 
@@ -857,281 +857,480 @@ $\\\
 
 # Registers:
 "0	CHAR	0
-	git add . -m "jack day 104"
-|3,0,0,0,1,0,1531968326,"git add . -m \"jack day 104\""
-"1	LINE	0
+	 github-create() {
+	 repo_name=$1
 	
-|3,0,1,1,1,0,1531356927,""
+	 dir_name=`basename "$(pwd)"`
+	
+	 if [ "$repo_name" = "" ]; then
+	 echo "Repo name (hit enter to use '$dir_name')?"
+	 read repo_name
+	 fi
+	
+	 if [ "$repo_name" = "" ]; then
+	 repo_name=$dir_name
+	 fi
+	
+	 username=`git config github.user`
+	 if [ "$username" = "" ]; then
+	 echo "Could not find username, run 'git config --global github.user <username>'"
+	 invalid_credentials=1
+	 fi
+	
+	 token=`git config github.token`
+	 if [ "$token" = "" ]; then
+	 echo "Could not find token, run 'git config --global github.token <token>'"
+	 invalid_credentials=1
+	 fi
+	
+	 if [ "$invalid_credentials" == "1" ]; then
+	 return 1
+	 fi
+	
+	 echo -n "Creating Github repository '$repo_name' ..."
+	 curl -u "$username:$token" https://api.github.com/user/repos -d '{"name":"'$repo_name'"}' 
+	 echo " done."
+	
+	 echo -n "Pushing local code to remote ..."
+	 git remote add origin git@github.com:$username/$repo_name.git 
+	 git push -u origin master 
+	 echo " done."
+	}
+	
+|3,0,0,0,40,0,1532154201," github-create() {"," repo_name=$1",""," dir_name=`basename \"$(pwd)\"`",""," if [ \"$repo_name\" = \"\" ]; then"," echo \"Repo name (hit enter to use '$dir_name')?\""," read repo_name"," fi",""," if [ \"$repo_name\" = \"\" ]; then"," repo_name=$dir_name"," fi",""," username=`git config github.user`"," if [ \"$username\" = \"\" ]; then"," echo \"Could not find username, run 'git config --global github.user <username>'\"",>24
+|<" invalid_credentials=1"," fi",""," token=`git config github.token`"," if [ \"$token\" = \"\" ]; then"," echo \"Could not find token, run 'git config --global github.token <token>'\""," invalid_credentials=1"," fi",""," if [ \"$invalid_credentials\" == \"1\" ]; then"," return 1"," fi",""," echo -n \"Creating Github repository '$repo_name' ...\""," curl -u \"$username:$token\" https://api.github.com/user/repos -d '{\"name\":\"'$repo_name'\"}' "," echo \" done.\"","",>47
+|<" echo -n \"Pushing local code to remote ...\""," git remote add origin git@github.com:$username/$repo_name.git "," git push -u origin master "," echo \" done.\"","}",""
+"1	CHAR	0
+	 echo -n "Pushing local code to remote ..."
+	 git remote add origin git@github.com:$username/$repo_name.git 
+	 git push -u origin master 
+	 echo " done."
+	
+|3,0,1,0,5,0,1532154538," echo -n \"Pushing local code to remote ...\""," git remote add origin git@github.com:$username/$repo_name.git "," git push -u origin master "," echo \" done.\"",""
 "2	LINE	0
-	alias warband="WINEPREFIX=~/.wine wine /mnt/windows_e/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/mb_warband.exe"
-|3,0,2,1,1,0,1531356926,"alias warband=\"WINEPREFIX=~/.wine wine /mnt/windows_e/Program\\ Files\\ \\(x86\\)/TaleWorlds\\ Entertainment/Mount\\ and\\ Blade\\ Warband\\ -\\ Viking\\ Conquest\\ Reforged\\ Edition/mb_warband.exe\""
+	 repo_name=$dir_name
+|3,0,2,1,1,0,1532154277," repo_name=$dir_name"
 "3	LINE	0
-	lib/libseccamera_jni.so
-|3,0,3,1,1,0,1531110770,"lib/libseccamera_jni.so"
+	
+|3,0,3,1,1,0,1532154256,""
 "4	LINE	0
+	 dir_name=`basdename "$(pwd)"`
+|3,0,4,1,1,0,1532154254," dir_name=`basdename \"$(pwd)\"`"
+"5	LINE	0
 	
-|3,0,4,1,1,0,1531109417,""
-"5	CHAR	0
-	vendor/lib/libMcClient.so
-	vendor/lib/libMcRegistry.so
+	#=========================================================#
+	#           FUNCTION TO DELETE GIT REPO                   #
+	#=========================================================#
+	github-delete(){
+	  # Copyright 2018 dfyfhqsfly@gmail.com.
+	#
+	# Licensed under the Apache License, Version 2.0 (the "License");
+	# you may not use this file except in compliance with the License.
+	# You may obtain a copy of the License at
+	#
+	#      http://www.apache.org/licenses/LICENSE-2.0
+	#
+	# Unless required by applicable law or agreed to in writing, software
+	# distributed under the License is distributed on an "AS IS" BASIS,
+	# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	# See the License for the specific language governing permissions and
+	# limitations under the License.
 	
-|3,0,5,0,3,0,1531109413,"vendor/lib/libMcClient.so","vendor/lib/libMcRegistry.so",""
-"6	CHAR	0
-	vendor/lib64/libMcClient.so
-	vendor/lib64/libMcRegistry.so
+	 __ScriptVersion="version1.0"
+	 _UserKey=user
+	 _RepoKey=repo
 	
-|3,0,6,0,3,0,1531109404,"vendor/lib64/libMcClient.so","vendor/lib64/libMcRegistry.so",""
+	#===  FUNCTION  ================================================================
+	#         NAME:  usage
+	#  DESCRIPTION:  Display usage information.
+	#===============================================================================
+	 function usage ()
+	 {
+	   echo "Usage :  $0 [options] [--]
+	     Options:
+	     -h|help         Display this message
+	     -v|version      Display script version
+	     -r|repo         name of the repository to delete
+	     -u|user         Name for github"
+	 }    # ----------  end of function usage  ----------
+	
+	#-----------------------------------------------------------------------
+	#  Handle command line arguments
+	#-----------------------------------------------------------------------
+	
+	function main() 
+	 {
+	   if [ $# -eq 0 ]
+	   then
+	     usage;
+	     exit 1
+	   fi
+	 
+	   declare -A arguments
+|3,0,5,1,50,0,1532154174,"","#=========================================================#","#           FUNCTION TO DELETE GIT REPO                   #","#=========================================================#","github-delete(){","  # Copyright 2018 dfyfhqsfly@gmail.com.","#","# Licensed under the Apache License, Version 2.0 (the \"License\");","# you may not use this file except in compliance with the License.","# You may obtain a copy of the License at",>3
+|<"#","#      http://www.apache.org/licenses/LICENSE-2.0","#","# Unless required by applicable law or agreed to in writing, software","# distributed under the License is distributed on an \"AS IS\" BASIS,","# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.","# See the License for the specific language governing permissions and","# limitations under the License.",""," __ScriptVersion=\"version1.0\""," _UserKey=user"," _RepoKey=repo","",>82
+|<"#===  FUNCTION  ================================================================","#         NAME:  usage","#  DESCRIPTION:  Display usage information.","#==============================================================================="," function usage ()"," {","   echo \"Usage :  $0 [options] [--]","     Options:","     -h|help         Display this message","     -v|version      Display script version","     -r|repo         name of the repository to delete",>40
+|<"     -u|user         Name for github\""," }    # ----------  end of function usage  ----------","","#-----------------------------------------------------------------------","#  Handle command line arguments","#-----------------------------------------------------------------------","","function main() "," {","   if [ $# -eq 0 ]","   then","     usage;","     exit 1","   fi"," ","   declare -A arguments"
+"6	LINE	0
+	
+|3,0,6,1,1,0,1532153832,""
 "7	LINE	0
-	vendor/firmware/bcm4358A3_V0083.0138_semco.hcd
-|3,0,7,1,1,0,1531109371,"vendor/firmware/bcm4358A3_V0083.0138_semco.hcd"
+	#!/bin/bash
+|3,0,7,1,1,0,1532153829,"#!/bin/bash"
 "8	LINE	0
-	vendor/firmware/bcm4358A3_V0083.0138_murata.hcd
-|3,0,8,1,1,0,1531109367,"vendor/firmware/bcm4358A3_V0083.0138_murata.hcd"
+	  user=$1
+|3,0,8,1,1,0,1532153536,"  user=$1"
 "9	LINE	0
-	lib64/libsdid.so
-|3,0,9,1,1,0,1531109352,"lib64/libsdid.so"
+	}
+|3,0,9,1,1,0,1532153494,"}"
 "q	CHAR	0
 	
 |3,0,26,0,1,0,1521386049,""
 ""-	CHAR	0
-	>
-|3,1,36,0,1,0,1532124976,">"
+	/
+|3,1,36,0,1,0,1532154615,"/"
 
 # File marks:
-'0  43  26  ~/.bash_profile
-|4,48,43,26,1532124980,"~/.bash_profile"
-'1  10  27  ~/.bash_profile
-|4,49,10,27,1532124548,"~/.bash_profile"
-'2  10  27  ~/.bash_profile
-|4,50,10,27,1532124548,"~/.bash_profile"
-'3  45  0  ~/.bash_profile
-|4,51,45,0,1532122328,"~/.bash_profile"
-'4  45  0  ~/.bash_profile
-|4,52,45,0,1532122328,"~/.bash_profile"
-'5  45  0  ~/.bash_profile
-|4,53,45,0,1532122328,"~/.bash_profile"
-'6  45  0  ~/.bash_profile
-|4,54,45,0,1532122328,"~/.bash_profile"
-'7  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,55,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
-'8  1  0  /tmp/bash-fc.TJY4eY
-|4,56,1,0,1531968328,"/tmp/bash-fc.TJY4eY"
-'9  1  4  ~/Documents/Mount&Blade Warband Savegames/.git/COMMIT_EDITMSG
-|4,57,1,4,1531928504,"~/Documents/Mount&Blade Warband Savegames/.git/COMMIT_EDITMSG"
+'0  82  0  ~/.bash_profile
+|4,48,82,0,1532155167,"~/.bash_profile"
+'1  78  61  ~/.bash_profile
+|4,49,78,61,1532154619,"~/.bash_profile"
+'2  78  61  ~/.bash_profile
+|4,50,78,61,1532154619,"~/.bash_profile"
+'3  81  0  ~/.bash_profile
+|4,51,81,0,1532154542,"~/.bash_profile"
+'4  81  0  ~/.bash_profile
+|4,52,81,0,1532154542,"~/.bash_profile"
+'5  81  0  ~/.bash_profile
+|4,53,81,0,1532154542,"~/.bash_profile"
+'6  81  0  ~/.bash_profile
+|4,54,81,0,1532154542,"~/.bash_profile"
+'7  49  0  ~/.bash_profile
+|4,55,49,0,1532153932,"~/.bash_profile"
+'8  126  0  ~/.bash_profile
+|4,56,126,0,1532153932,"~/.bash_profile"
+'9  49  0  ~/.bash_profile
+|4,57,49,0,1532153932,"~/.bash_profile"
 
 # Jumplist (newest first):
--'  43  26  ~/.bash_profile
-|4,39,43,26,1532124980,"~/.bash_profile"
--'  10  27  ~/.bash_profile
-|4,39,10,27,1532124877,"~/.bash_profile"
--'  10  27  ~/.bash_profile
-|4,39,10,27,1532124548,"~/.bash_profile"
--'  45  0  ~/.bash_profile
-|4,39,45,0,1532124520,"~/.bash_profile"
--'  45  0  ~/.bash_profile
-|4,39,45,0,1532124520,"~/.bash_profile"
--'  45  0  ~/.bash_profile
-|4,39,45,0,1532122328,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1532122311,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1532122311,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1532122311,"~/.bash_profile"
--'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2668  596  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2668,596,1532086208,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  1  0  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,1,0,1532086203,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2785  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2785,22,1532086162,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2776  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2776,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2773  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2773,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2771  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2771,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2763  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2763,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2759  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2759,22,1532086132,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2732  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2732,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2751  22  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2751,22,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2735  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2735,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
--'  2734  23  ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
-|4,39,2734,23,1532086131,"~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav"
+-'  82  0  ~/.bash_profile
+|4,39,82,0,1532155167,"~/.bash_profile"
+-'  78  61  ~/.bash_profile
+|4,39,78,61,1532154722,"~/.bash_profile"
+-'  78  61  ~/.bash_profile
+|4,39,78,61,1532154619,"~/.bash_profile"
+-'  81  0  ~/.bash_profile
+|4,39,81,0,1532154603,"~/.bash_profile"
+-'  81  0  ~/.bash_profile
+|4,39,81,0,1532154603,"~/.bash_profile"
+-'  81  0  ~/.bash_profile
+|4,39,81,0,1532154542,"~/.bash_profile"
+-'  49  0  ~/.bash_profile
+|4,39,49,0,1532154174,"~/.bash_profile"
+-'  49  0  ~/.bash_profile
+|4,39,49,0,1532154174,"~/.bash_profile"
+-'  49  0  ~/.bash_profile
+|4,39,49,0,1532154174,"~/.bash_profile"
+-'  126  0  ~/.bash_profile
+|4,39,126,0,1532153932,"~/.bash_profile"
+-'  126  0  ~/.bash_profile
+|4,39,126,0,1532153932,"~/.bash_profile"
+-'  126  0  ~/.bash_profile
+|4,39,126,0,1532153932,"~/.bash_profile"
+-'  138  0  ~/.bash_profile
+|4,39,138,0,1532153781,"~/.bash_profile"
+-'  138  0  ~/.bash_profile
+|4,39,138,0,1532153781,"~/.bash_profile"
+-'  138  0  ~/.bash_profile
+|4,39,138,0,1532153781,"~/.bash_profile"
+-'  50  0  ~/.bash_profile
+|4,39,50,0,1532153755,"~/.bash_profile"
+-'  140  0  ~/.bash_profile
+|4,39,140,0,1532153755,"~/.bash_profile"
+-'  50  0  ~/.bash_profile
+|4,39,50,0,1532153755,"~/.bash_profile"
+-'  140  0  ~/.bash_profile
+|4,39,140,0,1532153755,"~/.bash_profile"
+-'  50  0  ~/.bash_profile
+|4,39,50,0,1532153755,"~/.bash_profile"
+-'  140  0  ~/.bash_profile
+|4,39,140,0,1532153755,"~/.bash_profile"
+-'  109  14  ~/.bash_profile
+|4,39,109,14,1532153665,"~/.bash_profile"
+-'  111  14  ~/.bash_profile
+|4,39,111,14,1532153665,"~/.bash_profile"
+-'  109  14  ~/.bash_profile
+|4,39,109,14,1532153665,"~/.bash_profile"
+-'  111  14  ~/.bash_profile
+|4,39,111,14,1532153665,"~/.bash_profile"
+-'  109  14  ~/.bash_profile
+|4,39,109,14,1532153665,"~/.bash_profile"
+-'  111  14  ~/.bash_profile
+|4,39,111,14,1532153665,"~/.bash_profile"
+-'  111  14  ~/.bash_profile
+|4,39,111,14,1532153659,"~/.bash_profile"
+-'  106  20  ~/.bash_profile
+|4,39,106,20,1532153637,"~/.bash_profile"
+-'  108  20  ~/.bash_profile
+|4,39,108,20,1532153637,"~/.bash_profile"
+-'  106  20  ~/.bash_profile
+|4,39,106,20,1532153637,"~/.bash_profile"
+-'  108  20  ~/.bash_profile
+|4,39,108,20,1532153637,"~/.bash_profile"
+-'  106  20  ~/.bash_profile
+|4,39,106,20,1532153637,"~/.bash_profile"
+-'  108  20  ~/.bash_profile
+|4,39,108,20,1532153637,"~/.bash_profile"
+-'  108  20  ~/.bash_profile
+|4,39,108,20,1532153637,"~/.bash_profile"
+-'  108  20  ~/.bash_profile
+|4,39,108,20,1532153628,"~/.bash_profile"
+-'  137  0  ~/.bash_profile
+|4,39,137,0,1532153567,"~/.bash_profile"
+-'  139  0  ~/.bash_profile
+|4,39,139,0,1532153567,"~/.bash_profile"
+-'  137  0  ~/.bash_profile
+|4,39,137,0,1532153567,"~/.bash_profile"
+-'  139  0  ~/.bash_profile
+|4,39,139,0,1532153567,"~/.bash_profile"
+-'  137  0  ~/.bash_profile
+|4,39,137,0,1532153567,"~/.bash_profile"
+-'  139  0  ~/.bash_profile
+|4,39,139,0,1532153567,"~/.bash_profile"
+-'  139  0  ~/.bash_profile
+|4,39,139,0,1532153567,"~/.bash_profile"
+-'  139  0  ~/.bash_profile
+|4,39,139,0,1532153567,"~/.bash_profile"
+-'  139  0  ~/.bash_profile
+|4,39,139,0,1532153551,"~/.bash_profile"
+-'  128  0  ~/.bash_profile
+|4,39,128,0,1532153475,"~/.bash_profile"
+-'  128  0  ~/.bash_profile
+|4,39,128,0,1532153475,"~/.bash_profile"
+-'  128  0  ~/.bash_profile
+|4,39,128,0,1532153475,"~/.bash_profile"
+-'  128  0  ~/.bash_profile
+|4,39,128,0,1532153475,"~/.bash_profile"
+-'  128  0  ~/.bash_profile
+|4,39,128,0,1532153475,"~/.bash_profile"
+-'  128  0  ~/.bash_profile
+|4,39,128,0,1532153475,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152976,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152976,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152976,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152976,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152976,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152976,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152976,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152976,"~/.bash_profile"
+-'  4  0  ~/.bash_profile
+|4,39,4,0,1532152934,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  6  59  ~/.bash_profile
+|4,39,6,59,1532152824,"~/.bash_profile"
+-'  53  4  ~/.bash_profile
+|4,39,53,4,1532152040,"~/.bash_profile"
+-'  53  4  ~/.bash_profile
+|4,39,53,4,1532152040,"~/.bash_profile"
+-'  53  4  ~/.bash_profile
+|4,39,53,4,1532152040,"~/.bash_profile"
+-'  53  4  ~/.bash_profile
+|4,39,53,4,1532152040,"~/.bash_profile"
+-'  53  4  ~/.bash_profile
+|4,39,53,4,1532152040,"~/.bash_profile"
+-'  53  4  ~/.bash_profile
+|4,39,53,4,1532152040,"~/.bash_profile"
+-'  53  4  ~/.bash_profile
+|4,39,53,4,1532152040,"~/.bash_profile"
+-'  53  4  ~/.bash_profile
+|4,39,53,4,1532152040,"~/.bash_profile"
+-'  84  3  ~/.bash_profile
+|4,39,84,3,1532151744,"~/.bash_profile"
+-'  86  3  ~/.bash_profile
+|4,39,86,3,1532151744,"~/.bash_profile"
+-'  88  3  ~/.bash_profile
+|4,39,88,3,1532151744,"~/.bash_profile"
+-'  84  3  ~/.bash_profile
+|4,39,84,3,1532151744,"~/.bash_profile"
+-'  86  3  ~/.bash_profile
+|4,39,86,3,1532151744,"~/.bash_profile"
+-'  88  3  ~/.bash_profile
+|4,39,88,3,1532151744,"~/.bash_profile"
+-'  84  3  ~/.bash_profile
+|4,39,84,3,1532151744,"~/.bash_profile"
+-'  86  3  ~/.bash_profile
+|4,39,86,3,1532151744,"~/.bash_profile"
+-'  86  3  ~/.bash_profile
+|4,39,86,3,1532151744,"~/.bash_profile"
+-'  88  3  ~/.bash_profile
+|4,39,88,3,1532151744,"~/.bash_profile"
+-'  86  3  ~/.bash_profile
+|4,39,86,3,1532151744,"~/.bash_profile"
+-'  88  3  ~/.bash_profile
+|4,39,88,3,1532151744,"~/.bash_profile"
+-'  86  3  ~/.bash_profile
+|4,39,86,3,1532151744,"~/.bash_profile"
+-'  88  3  ~/.bash_profile
+|4,39,88,3,1532151744,"~/.bash_profile"
+-'  86  3  ~/.bash_profile
+|4,39,86,3,1532151744,"~/.bash_profile"
+-'  88  3  ~/.bash_profile
+|4,39,88,3,1532151744,"~/.bash_profile"
+-'  136  55  ~/.bash_profile
+|4,39,136,55,1532151707,"~/.bash_profile"
+-'  136  55  ~/.bash_profile
+|4,39,136,55,1532151707,"~/.bash_profile"
+-'  136  55  ~/.bash_profile
+|4,39,136,55,1532151707,"~/.bash_profile"
+-'  138  55  ~/.bash_profile
+|4,39,138,55,1532151707,"~/.bash_profile"
+-'  138  55  ~/.bash_profile
+|4,39,138,55,1532151707,"~/.bash_profile"
+-'  138  55  ~/.bash_profile
+|4,39,138,55,1532151707,"~/.bash_profile"
+-'  138  55  ~/.bash_profile
+|4,39,138,55,1532151707,"~/.bash_profile"
 
 # History of marks within files (newest to oldest):
 
 > ~/.bash_profile
-	*	1532124978	0
-	"	43	26
-	^	10	28
-	.	43	26
-	+	45	0
-	+	10	27
-	+	38	90
-	+	43	26
+	*	1532154795	0
+	"	82	0
+	^	53	17
+	.	53	17
+	+	47	0
+	+	12	27
+	+	40	90
+	+	45	26
+	+	44	62
+	+	49	0
+	+	47	0
+	+	49	17
+	+	49	6
+	+	5	33
+	+	6	3
+	+	6	0
+	+	49	16
+	+	49	38
+	+	49	1
+	+	49	0
+	+	49	67
+	+	49	0
+	+	49	18
+	+	49	11
+	+	49	16
+	+	49	44
+	+	49	39
+	+	49	83
+	+	49	72
+	+	49	0
+	+	49	41
+	+	49	2
+	+	49	0
+	+	49	40
+	+	49	1
+	+	49	35
+	+	49	0
+	+	49	46
+	+	49	13
+	+	49	80
+	+	49	19
+	+	6	59
+	+	6	60
+	+	6	94
+	+	6	59
+	+	6	93
+	+	9	0
+	+	6	0
+	+	6	60
+	+	6	120
+	+	6	117
+	+	6	178
+	+	6	119
+	+	6	0
+	+	49	0
+	+	49	29
+	+	49	35
+	+	49	0
+	+	49	51
+	+	49	20
+	+	49	6
+	+	49	26
+	+	49	0
+	+	49	12
+	+	49	25
+	+	49	0
+	+	49	8
+	+	49	0
+	+	49	14
+	+	49	0
+	+	49	94
+	+	49	78
+	+	49	0
+	+	48	0
+	+	49	13
+	+	52	0
+	+	59	0
+	+	58	45
+	+	78	15
+	+	77	15
+	+	81	0
+	+	82	0
+	+	78	61
+	+	53	17
+
+> /usr/share/vim/vim81/doc/undo.txt
+	*	1532152022	0
+	"	34	22
+
+> ~/.vim/bundle/c-support/doc/csupport.txt
+	*	1532150681	0
+	"	1432	0
+
+> ~/.vim/bundle/Vundle.vim/doc/vundle.txt
+	*	1532150262	0
+	"	261	22
+
+> /usr/share/vim/vim81/doc/usr_05.txt
+	*	1532150223	0
+	"	356	0
+
+> /usr/share/vim/vim81/doc/motion.txt
+	*	1532150187	0
+	"	1	0
+
+> ~/.bash_p
+	*	1532150109	0
+	"	1	0
+
+> /tmp/bash-fc.8DYETt
+	*	1532131081	0
+	"	1	55
+	.	2	0
+	+	2	0
 
 > ~/Documents/Mount&Blade Warband Savegames/Native/last_savegame_backup.sav
 	*	1532086204	0
@@ -1834,54 +2033,3 @@ $\\\
 	"	1	0
 	.	1	0
 	+	1	0
-
-> /tmp/bash-fc.Bpnc2R
-	*	1530534860	0
-	"	1	0
-
-> /etc/resolve.conf
-	*	1530505148	0
-	"	1	0
-
-> ~/git/abs/linux/trunk/PKGBUILD
-	*	1530498953	0
-	"	85	2
-	^	6	0
-	.	85	2
-	+	5	0
-	+	6	0
-	+	83	2
-	+	81	0
-	+	85	2
-
-> ~/ocult_files.txt
-	*	1521664527	0
-	"	7	0
-	.	7	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	7	0
-
-> /etc/bluetooth/main.conf
-	*	1521661816	0
-	"	102	0
-	.	102	0
-	+	102	0
-
-> /etc/fstab
-	*	1521642282	0
-	"	29	59
-	^	29	60
-	.	29	59
-	+	29	59
-
-> /mnt/new-arch/etc/fstab
-	*	1521641675	0
-	"	24	43
-	.	24	43
-	+	24	43

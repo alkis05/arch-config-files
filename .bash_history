@@ -1,336 +1,3 @@
-man tee
-cd $LAOS
-ls
-cd device/samsung/zerofltexx/
-ls
-clear
-ls
-ls
-adb shell
-adb shell
-pull /sdcard/new_blobs.txt .
-adb pull /sdcard/new_blobs.txt .
-vim new_blobs.txt 
-adb push new_blobs.txt /sdcard
-adb shell
-pull /sdcard/new_blobs.txt .
-pull /sdcard/new_blobs.txt ./
-adb pull /sdcard/new_blobs.txt .
-ls
-cat new_blobs.txt 
-cat ../zero-common/common-proprietary-blobs.txt
-adb shell
-ls
-cd ..
-cd zero-common/
-ls
-sort new_blobs.txt 
-vim new_blobs.txt 
-sorted new_blobs.txt 
-sort new_blobs.txt 
-vim new_blobs.txt 
-sort new_blobs.txt |
-ls
-man diff
-info diff
-cd ../zerofltexx/
-ls
-vim lineage.dependencies 
-cat *.mk |less
-cd ../zero-common/
-cat *.mk |less
-grep -oE "[[:alnum:]\.\_\-]*$" device/samsung/zerofltexx/missing_files.txt > $LAOS/device/samsung/zerofltexx/missing2.txt 
-grep -oE "[[:alnum:]\.\_\-]*$" $LAOS/missing_files.txt > $LAOS/device/samsung/zerofltexx/missing2.txt 
-adb push device/samsung/zerofltexx/missing2.txt /sdcard
-grep -oE "[[:alnum:]\.\_\-]*$" $LAOS/missing_files.txt > $LAOS/missing2.txt 
-adb push $LAOS/missing2.txt /sdcard
-ls
-cd $LAOS
-ls
-vim missing2.txt 
-adb shell
-adb shell
-ls
-cd device/samsung/zerofltexx/
-ls
-ls
-source extract-files.sh | tee blobs.txt 
-ls
-rm -rf $LAOS/vendor/samsung/zero-common/proprietary/*
-source extract-files.sh | tee blobs.txt 
-vim blobs.txt 
-ls
-rm blobs.txt 
-cd ..
-ls
-cd zero
-cd zero-common/
-vim common-proprietary-blobs.txt
-cd ../zerofltexx/
-ls
-source extract-files.sh |tee blobs.txt
-vim blobs.txt 
-adb pull /sdcard/cbd .
-adb shell
-adb pull /sdcard/cbd .
-ls
-mv cbd $LAOS/vendor/samsung/zero-common/proprietary/sbin/
-cd $LAOS/vendor/samsung/zero-common/proprietary/sbin/
-ls
-cd ..
-ls
-
-find . -type f
-find . -type f|less
-croot
-cd $LAOS
-fuser -cu /tmp
-kill 12344
-kill 551
-sudo umount /tmp
-fuser -cu /tmp
-ps aux | grep 19828
-sudo systemctl stop sound
-sudo systemctl stop pulseaudio
-systemctl
-pulseaudio --stop
-man pulseaudio
-pulseaudio --kill
-fuser -cu /tmp
-man pulseaudio
-fuser -cu /tmp
-kill 20834  && sudo umount /tmp
-fuser -cu /tmp
-pulseaudio --kill && sudo umount /tmp
-pasuspender 
-pasuspender -s pulseaudio
-pasuspender -s=pulseaudio
-pasuspender --server=pulseaudio
-which pulseaudio
-pasuspender -- $(which pulseaudio)
-pulseaudio --kill && sudo umount /tmp
-system ctl --user mask pulseaudio.socket
-systemctl --user mask pulseaudio.socket
-pulseaudio --kill && sudo umount /tmp
-ls /tmp
-rm /tmp/*
-rm -rf /tmp/*
-sudo rm -rf /tmp/*
-ls /tmp
-sudo umount /tmp
-mount
-ls -a /tmp
-sudo vim /etc/pulse/client.conf 
-pulseaudio --kill
-sudo umount /tmp
-fuser -cu /tmp
-ps aux | grep 22015
-sudo umount /tmp
-fuser -cu /tmp
-sudo umount /tmp
-mount
-ls /mnt
-ls tmp
-ls /tmp
-ls /tmp -a
-cat /tmp/.X0-lock 
-kill 387
-sudo kill 387
-man sort
-sudo pulseaudio --kill
-sudo pulseaudio --start
- pulseaudio --start
- pulseaudio --status
-sudo  pulseaudio --start --system
-sudo systemctl start pulseaudio
-pavucontrol 
-rm -rf .config/pulse/*
-pulseaudio --kill
-pulseaudio --start
-pulseaudio --status
-man pulseaudio
-pulseaudio --check
-sudo pulseaudio --kill
-sudo pulseaudio --system -start 
-sudo pulseaudio --system --start 
-sudo pulseaudio --system 
-pulseaudio -vvv
-ps aux |grep pulseaudio
-pamixer
-pamixer --get-volume
-bluetoothctl 
-pamixer
-pamixer list-sinks
-pamixer --list-sinks 
-pamixer --sink 2
-pamixer --sink 1
-pamixer --sink 1
-pamixer --sink 0
-pactl 
-pactl --help
-pactl list
-pactl list sinks
-pactl 
-pactl --hellp
-pactl --help
-pactl set-sink-2
-pactl set-sink-"JBL E25BT"
-pactl set-sink-port 2
-pactl set-input-mute 0
-pactl set-input-mute 1
-pactl set-input-mute 2 toggle
-pactl set-input-mute 1 toggle
-pactl set-input-mute 0 toggle
-clear
-vim .bashrc
-clear
-pulseaudio --kill
-pulseaudio --kill
-pulseaudio --start
-systemctl
-amixer --help
-amixer -D 2
-amixer -D 1
-amixer -D 0
-clear
-amixer 
-amixer -D headphone
-amixer -D master
-pactl list sinks
-pactl list sinks
-pactl 
-pactl --help
-pamixer --help
-pamixer --set-vomlume 0
-pamixer --set-volume 0
-pamixer --set-volume 55
-pamixer --set-volume 100
-pamixer 
-pamixer --sink 0
-pamixer --sink 1
-pamixer --sink 2
-pamixer --list-sinks
-pamixer --sink 0
-pamixer --sink 1
-pamixer -t
-pamixer -t
-man pactl
-man pamixer
-man pamixer 
-vim /etc/pulse/daemon.conf 
-vim /etc/pulse/client.conf 
-sudo vim /etc/pulse/client.conf 
-sudo pulseaudio --kill 
-sudo pulseaudio --start
-sudo pulseaudio  --system
- pulseaudio  --start
- pulseaudio  --check
-sudo  pulseaudio  --check
-sudo  pulseaudio  --vvv
-man pulseaudio
-pulseaudio --kill
- pulseaudio  --start
-ps aux
-pactl 
-pactl --help
-pamixer 
-pamixer --sink 1
-pamixer --sink 0
-pamixer --sink 1
-pulseaudio --kill
-pulseaudio --start
-ps aux
-kill 10838
-ps aux
-vim .config/i3/config 
-bluetoothctl
-pamixer --
-pamixer --list-sinks
-pamixer --list-sinks
-pamixer --list-sinks
-pamixer --list-sources
-pamixer --source 0
-pamixer --source 1
-pamixer --source 2
-pamixer --sink 0
-pamixer --sink 1
-pamixer --sink 2
-pulseaudio --kill
-pulseaudio --start
-ps aux | pulseaudio
-ps aux | grep pulseaudio
-kill 2826
-sudo kill 2826
-sudo kill 3413
-ps aux | grep pulseaudio
-kill 3789
-ps aux | grep pulseaudio
-pulseaudio --kill
-ps aux | grep pulseaudio
-clear
-ls
-clear
-bluetoothctl
-clear
-ls
-clear
-pamixer --sink 0
-pamixer --sink 1
-pamixer --sink 2
-clear
-oss
-pamixer --sink 2
-pamixer --sink 1
-pamixer --sink 0
-pactl
-pactl --help
-reboot
-bluetoothctl
-bluetoothctl
-bluetoothctl
-bluetoothctl
-clear
-clear
-bt-device --help
-bt-adapter -l
-bt-device -l
-bt-device -h
-bt-device -l
-xev
-sudo pacman -Suy
-brctl addbr br0
-man ip link 
-vim .config/i3/config 
-vim .config/i3/config 
-warband 
-reboot
-lsblk
-ls /mnt
-ls /mnt/LFS
-cd /mnt/windows10/
-ls
-cd ..
-cd ..
-cd
-sudo mount /dev/sda1 /mnt/windows10
-reboot
-sudo mount /dev/sda1 /mnt/windows10
-genfstab -U /
-genfstab -U / |tail -n5
-genfstab -U / |tail -n6
-genfstab -U / |tail -n6|head -n2
-su -c "genfstab -U / |tail -n6|head -n2 >> /etc/fstab"
-ls /mnt/windows10
-ls /mnt/windows10/Users/vini\ sc/Downloads/
-ls /mnt/windows10/Users/vini\ sc/Downloads/|grep blade
-ls /mnt/windows10/Users/vini\ sc/Downloads/|grep \.iso
-ount -o loop /mnt/windows10/Users/vini\ sc/Downloads/Mount.and.Blade.Warband.Viking.Conquest.Reforged.Edition-SKIDROW/sr-mbvcre.iso 
-man fusermount
-mkdir warbandiso
-fusermount /mnt/windows10/Users/vini\ sc/Downloads/Mount.and.Blade.Warband.Viking.Conquest.Reforged.Edition-SKIDROW/sr-mbvcre.iso warbandiso/
-mount -o loop /mnt/windows10/Users/vini\ sc/Downloads/Mount.and.Blade.Warband.Viking.Conquest.Reforged.Edition-SKIDROW/sr-mbvcre.iso warbandiso/
-sudo mount -o loop /mnt/windows10/Users/vini\ sc/Downloads/Mount.and.Blade.Warband.Viking.Conquest.Reforged.Edition-SKIDROW/sr-mbvcre.iso warbandiso/
-ls warbandiso/
 cd warbandiso/
 ls
 ls /bin |grep wine
@@ -498,3 +165,336 @@ rfkill list
 sudo systemctl start bluetooth
 sudo systemctl stop bluetooth
 vim Documents/Mount\&Blade\ Warband\ Savegames/Native/last_savegame_backup.sav 
+warband 
+warband 
+warband 
+warband 
+warband 
+vim ~/.bash_profile 
+source ~/.bashrc
+vim ~/.bash_profile 
+vim Documents/Mount\&Blade\ Warband\ Savegames/Native/last_savegame_backup.sav 
+cd .config/
+cd ..
+git status
+git status |grep modified
+git status |grep modified | grep ^.*
+git status |grep modified | grep ".*"
+git status |grep modified | grep "config"
+git status |grep modified | grep \.*
+git status |grep modified | grep "\.*"
+git status |grep -o modified | grep "\.*"
+git status |grep modified | grep "\.*"
+git status |grep modified | grep "\..*"
+git status |grep modified | grep "\..*" -o
+git status |grep modified | grep "\..*" -o |xargs git add
+git status
+git commit "config update jul" 
+git commit -m "config update jul" 
+git push origin master
+git status
+git push
+curl -u alkis05:7e0b9acc9ac42c0e8d0d3eb687df750844b88093 https://api.github.com/user/repos -d '{"name":"arch-config-files"}'
+git remote add origin git@github.com:alkis05/arch-config-files.git
+git push origin master
+curl -u alkis05:7e0b9acc9ac42c0e8d0d3eb687df750844b88093 https://api.github.com/user/repos -d '{"name":"arch-config-files"}'
+bluetoothctl
+ls
+cd Documents/
+ls
+cd Mount\&Blade\ Warband\ Savegames/
+ls
+git status
+git checkout -b jack
+git status
+ls
+man git merge
+git merge -m "day 58, first siege" jack-58
+git status
+git log
+git merge -m "day 90 failed siege" jack-92
+git merge -m "day 104" master
+git log
+clear
+git log --all
+gitk
+ls
+git checkout master
+git status
+git commit-am "jack day 104"
+git commit-a -m "jack day 104"
+git add . -m "jack day 104"
+git add . -m "jack day 104"
+git add . 
+git commit -m "jack day 104"
+git status
+clear
+ls
+git status
+git checkout jack
+git check out jack-58
+git check out jack-56
+git checkout jack-56
+git checkout jack-58
+git log
+git reset 7adf
+git log
+clear
+git log
+gitk --all
+git log
+git log --al
+git log --all
+clear
+git log --all
+git status
+git checkout jack
+git merge -m "jack 104" master
+git status
+git log
+git checkout master
+git log
+clear
+git log
+git checkout jack
+clear
+git log
+git reset 1ddb
+clear
+git log
+git merge -m "day 104" master
+rm -f Native/
+rm -rf Native/
+git merge -m "day 104" master
+git status
+clear
+ls
+git status
+git commit -a -m "rhodok declares war on swadia"
+git status
+git checkout -b thomas
+ls
+rm -rf Native/
+tar xvzf ../Thomas_mb.tar.gz ./
+man tar
+tar xvzf ../Thomas_mb.tar.gz 
+ls
+ls Thomas_mb/
+mv Thomas_mb/* .
+ls
+ls Native
+ls Thomas_mb/
+rmdir Thomas_mb/
+ls
+clear
+ls
+ls gaius/
+ls ../
+rm Native\ \(copy\ 1\)/ -fr
+rm -rf gaius/ warband.7z wolfgang.7z 
+ls
+rm -rf Viking\ Conquest/
+ls
+git status
+git comit -am "Thomas"
+git comit -a -m "Thomas"
+git commit -am "Thomas"
+clear
+ls
+bluetoothd -n
+clear
+ls
+git status
+git checkout --
+git status
+git checkout -- .
+git status
+git checkout jack
+dh -h .
+df -h
+d
+dh
+dt
+df
+du -h
+date
+du -hc
+man du
+du -hcs
+du -hcs .git
+du -hs .git
+man du
+ls
+git status
+git commit -am "day 117 2nd siege"
+du -hs
+ls
+git commit -am "day 122 3rd siege"
+git commit -am "day 124 defending"
+git status
+git commit -am "day 127 won battle vs swadia"
+git commit -am "day 147 marriage"
+git status
+git config github.user
+man git config
+git config --global github.user alkis05
+git config github.user
+vim ~/.bash_profile 
+source ~/.bash_profile
+git checkout master
+git status
+git commit -am "day peace with swadia"
+git checkout master
+git merge master 
+ls
+rm -rf Native/
+git merge master 
+ls
+git status
+git checkout -- .
+ls
+git log
+man git merge
+git merge -m "jack peace with swadia 128" master
+ls
+rm -rf Native/
+git merge -m "jack peace with swadia 128" master
+ls
+git status
+man git merge
+git checkout jack
+ls
+git checkout master
+ls
+git log
+git merge -m "jack peace with swadia" master
+ls
+git status
+ls
+rm -rf Native/
+ls
+git commit -am ""
+git commit -am "test"
+ls
+git merge -m "jack peace with swadia" master
+ls
+git log
+git reset 0de8a
+git status
+git checkout -- .
+ls
+clear
+ls
+git log
+git checkout jack
+ls
+git log
+git log
+clear
+ls
+git status
+gitk
+gitk --all
+clear
+git checkout master
+git checkout jack
+man touch
+git status
+git checkout master
+git diff jack
+gitk --all
+git checkout master
+gitk --all
+gitk
+git status
+rm -rf Native/
+ls
+clear
+ls
+ls
+ls
+git commit -am "test"
+ls
+gitk
+gitk --all
+git merge -m "jack peace with swadia" master
+gitk --all
+git status
+clear
+ls
+git pull
+git log
+git reset 0de8
+git status
+git checkout -- .
+git status
+clear
+ls
+git merge -m "jack peace with swadia" jack
+gitk
+git log
+git-create MnB 
+github-create MnB 
+github-create --basename
+basename --help
+vim ~/.bash_profile 
+source ~/.bash_profile
+github-create MnB 
+git config --global github.token 7e0b9acc9ac42c0e8d0d3eb687df750844b88093
+github-create MnB 
+github-create MnB 
+github-create --help
+curl -u alkis05:7e0b9acc9ac42c0e8d0d3eb687df750844b88093 https://api.github.com/user/repos -d '{"name":"MnB"}'
+git remote add origen git@github.com:alkis05/MnB.git
+git push -u origin master
+git remote add origin git@github.com:alkis05/MnB.git
+git push -u origin master
+git checkout jack
+git push -u origin jack
+git push -u origin thomas
+git branch
+git branch -D jack-58
+git branch -D jack-92
+git status
+gitk -all
+gitk --all
+git branch
+man basename
+basename $(pwd
+)
+basename "$(pwd)"
+git config --global github.user alkis05
+git config --global github.token 7e0b9acc9ac42c0e8d0d3eb687df750844b88093
+github-create test
+source ~/.bash_profile
+github-create test
+git config github.token
+bluetoothctl
+sudo systemctl restart bluetooth
+bluetoothctl
+sudo systemctl restart bluetooth
+sudo systemctl status bluetooth
+sudo systemctl start bluetooth
+ps aux |grep bluetooth
+sudo kill 11206
+ps aux |grep bluetooth
+sudo kill 11206
+ps aux |grep bluetooth
+sudo killall bluetoothd
+ps aux |grep bluetooth
+man kill
+kill -L
+sudo kill -s 4 -p 11206
+sudo kill -s 4 
+ps aux |grep bluetooth
+ps aux 
+ps aux |grep bluetooth
+ls /usr/lib/bluetooth/bluetoothd -n
+ls /usr/lib/bluetooth/bluetoothd --help
+dmesg
+ps aux
+killall gitk
+man bash
+man bash
+git config github.token
+man echo
