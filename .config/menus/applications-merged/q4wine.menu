@@ -35,6 +35,37 @@
     <Directory>q4wine-Default-import.directory</Directory>
    </Menu>
   </Menu>
+  <Menu>
+   <Name>q4wine-warband</Name>
+   <Directory>q4wine-warband.directory</Directory>
+   <Menu>
+    <Name>q4wine-warband-system</Name>
+    <Directory>q4wine-warband-system.directory</Directory>
+    <Include>
+     <Filename>q4wine-warband-system-winecfg.desktop</Filename>
+     <Filename>q4wine-warband-system-wineconsole.desktop</Filename>
+     <Filename>q4wine-warband-system-uninstaller.desktop</Filename>
+     <Filename>q4wine-warband-system-regedit.desktop</Filename>
+     <Filename>q4wine-warband-system-explorer.desktop</Filename>
+     <Filename>q4wine-warband-system-eject.desktop</Filename>
+     <Filename>q4wine-warband-system-wordpad.desktop</Filename>
+     <Filename>q4wine-warband-system-taskmgr.desktop</Filename>
+     <Filename>q4wine-warband-system-winemine.desktop</Filename>
+     <Filename>q4wine-warband-system-oleview.desktop</Filename>
+     <Filename>q4wine-warband-system-notepad.desktop</Filename>
+     <Filename>q4wine-warband-system-iexplore.desktop</Filename>
+     <Filename>q4wine-warband-system-control.desktop</Filename>
+    </Include>
+   </Menu>
+   <Menu>
+    <Name>q4wine-warband-autostart</Name>
+    <Directory>q4wine-warband-autostart.directory</Directory>
+   </Menu>
+   <Menu>
+    <Name>q4wine-warband-import</Name>
+    <Directory>q4wine-warband-import.directory</Directory>
+   </Menu>
+  </Menu>
  </Menu>
 </Menu>
 

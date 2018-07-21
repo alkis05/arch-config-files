@@ -3,13 +3,6 @@
 
 config_version: 1
 global:
-  aliases:
-    q: quit
-    w: session-save
-    wq: quit --save
-  fonts.statusbar: 10pt monospace
-  fonts.tabs: 10pt monospace
-  fonts.web.size.default: 20
-  fonts.web.size.default_fixed: 15
-  fonts.web.size.minimum: 12
-  fonts.web.size.minimum_logical: 8
+  ignore_case: smart
+  spellcheck.languages:
+  - en-US

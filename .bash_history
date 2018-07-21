@@ -1,500 +1,500 @@
-sudo killall winefile
-ps aux | grep wine
-ps aux | grep XCom
-sudo kill all XCom2
-sudo killall XCom2
-cd /mnt/windows/R.G.\ Catalyst/XCOM\ 2/
+cd warbandiso/
 ls
-cd Binaries/
+ls /bin |grep wine
+man winetricks
+echo $WINEPREFIX
+man winetricks
+man winetricks
+~/.local/share/wineprefixes/warband/ winetricks
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winefile 
 ls
-cd Win64/
+cp skidrow/* ~/.local/share/wineprefixes/warband/drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/
+cd ~/.local/share/wineprefixes/warband/drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/
 ls
-XCom2 -noRedScreen -noreview
-./XCom2 -noRedScreen -noreview
-wine64 XCom2 -noRedScreen -noreview
-sudo pacman -S winetricks
-pacman -Ss wine
-sudo pacman -S q4wine wine-mono
-sudo pacman -S fuseiso
-pacman -Ss sudo
-ls /usr/bin/sh
-ls /usr/bin/sh -l
-yaourt -S customizepkg
-cd /mnt/windows
-ls
-ls
-ls -1
-memusage
-memusage --help
-memusage fallout4
-reboot
-uname -r
-modprobe ntfs
-sudo modprobe ntfs
-sudo mount /dev/sda3 /mnt/windows/
-thunar /mnt/windows/
-sudo thunar /mnt/windows/
-ls
-cd /mnt/windows/
-ls
-chown alkis:wheel /mnt/windows/ 
-sudo mount /dev/sda3 /mnt/windows/ -o remount,rw
-zcat /proc/config.gz | grep NTFS
-sudo umount /mnt/windows/
-sudo mount /dev/sda3 /mnt/windows/ -o rw
-mount
-sudo pacman -S fuse
-sudo umount /mnt/windows
-sudo pacman -S ntfs-3g
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw
-mount
-lsmod | grep ntfs
-ls
-ls /mnt/windows/ -l
-ls /mnt/windows/ -ld
-sudo chown alkis:wheel /mnt/windows
-ls /mnt/windows/ -ld
-sudo chown alkis:wheel /mnt/windows/
-man chown
-sudo chown alkis:wheel /mnt/windows/ -r
-sudo chown alkis:wheel /mnt/windows/ --recursive
-sudo chown alkis:wheel /mnt/windows/ --recursive -v
-ls
-ls /mnt/windows/ -dl
-cd /mnt/windows/
-ls
-ls -l
-sudo chown alkis:wheel /mnt/windows/ --recursive -v
-ls
-ls -l
-cd ..
-ls -l
-sudo chown alkis:wheel /mnt/windows/ --recursive -v
-ls
-ls -l
-ls | tail -n 1
-ls | tail -n 1 | xargs rm
-ls
-ls \'\'
-ls \'\'*
-ls
-ls -1
-rm \'\<\,\'\>\ \!xclip 
-ls
-sudo rm \'\<\,\'\>\ \!xclip 
-ls
-ls -l
-cd windows/
-ls
-ls -l
-ping google.com
-mount.ntfs-3g
-man mount.ntfs-3g
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,remount
-cd  ..
-cd ..
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,remount
-sudo umount /mnt/windows/
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000
-ls /mnt/windows/ -l
-man mount.ntfs-3g
-sudo umount /mnt/windows/
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,gid=1000
-cd
-sudo pacman -S wine
-ls
-cd git/
-ls
-ls build/
-rm build/ -r 
-xdiskusage .
-ls
-rm abs/linux/repos/core-x86_64/src/ -r
-cd abs/linux/repos/core-x86_64/
-ls
-du -h
-ls
-du linux-custom-* -h
-ls
-ls pkg/
-du pkg/linux-custom -h
-cd ..
-ls
-cd core-x
-cd core-x86_64/
-ls
-sudo rm -r pkg/
-ls
-clear
-ls
-sudo pacman -U linux-custom-4.14.9-1-x86_64.pkg.tar.xz 
-lz linux-custom-4.14.9-1-x86_64.pkg.tar.xz 
-zcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz 
-man xz
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz 
-man tar
-man tar
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz | tar -l
-man tar
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz | tar -t
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz | tar -t 2>/dev/null
-xzcat linux-custom-4.14.9-1-x86_64.pkg.tar.xz | tar -t 2>/dev/null | less
-man tar
-winefile
-cd git/abs/linux/
-ls
-cd repos/core-x86_64/
-ls
-vim PKGBUILD 
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,gid=1000
-ps aux | grep ck
-man wine64-preloader 
-wine64-preloader /mnt/windows/Program\ Files/Crusader\ Kings\ II\ 109/ck2game.exe 
-wine64 /mnt/windows/Program\ Files/Crusader\ Kings\ II\ 109/ck2game.exe 
-wine64 /mnt/windows/Program\ Files/Crusader\ Kings\ II\ 109/ck2.exe
-nmon
-nmon
-pacman -Ss cabextract
-pacman -Ss taskmonitor
-pacman -Ss monitor
-sudo pacman -S nmon
-nmon
-nmon
-sudo pacman -S gnome-monitor
-sudo pacman -S gnome
-WINEARCH=win32 WINEPREFIX=~/.win32 winecfg
-ls
-ls -a
-rm -r .win32
-pacman -Ss sudo
-yaourt -Ss sudo
-yaourt -S xfsudo
-yaourt -S kdesudo
-yaourt -S xfsudo
-yaourt -S xfsudo
-xfsudo
-xfsudo thunar
-man termite
-rm .cache/winetricks/directx9/directx_Jun2010_redist.exe 
-xdiskusage /mnt/windows/
-xdiskusage /mnt/windows/ &
-find /mnt/windows/ | grep -ie mount.*blade
-
-reboot
-sudo mkdir /mnt/windows_c
-sudo mount -t ntfs-3g /dev/sda1 /mnt/windows_c/ -o rw,uid=1000,gid=1000
-find /mnt/windows | grep westworld
-find /mnt/windows | grep -ie westworld
-vlc /mnt/windows/Users/alkis/Downloads/Westworld\ S01\ Season\ 1\ Complete\ HDTV\ 720p\ x265\ AAC\ E-Subs\ \[GWC\]/Westworld\ S01E5
-vlc /mnt/windows/Users/alkis/Downloads/Westworld\ S01\ Season\ 1\ Complete\ HDTV\ 720p\ x265\ AAC\ E-Subs\ \[GWC\]/Westworld\ S01E05\ 720p\ HDTV\ x265\ AAC\ \[GWC\].mkv 
-ps aux
-sudo mount -t ntfs-3g /dev/sda1 /mnt/windows_c/ -o rw,uid=1000,gid=1000
-sudo mount -t ntfs-3g /dev/sda3 /mnt/windows/ -o rw,uid=1000,gid=1000
-pacman -Ss q4
-ping google.com
-pacman -Ss | grep -E  qt4 -e settings
-pacman -Ss | grep -E qt4 -e settings
-pacman -Ss | grep -E qt4
-pacman -qtconfig-qt4
-qtconfig-qt4
-pacman -Ss murrine
-sudo pacman -S murrine
-sudo pacman -S gtk-engine-murrine
-qtconfig-qt4
-find /mnt/windows_c/ | grep -E skyline
-find /mnt/windows_c/ | grep -E cities.exe
-find /mnt/windows_c/Program\ Files | grep -E cities.exe
-find /mnt/windows_c/Program\ Files\ \(x86\)/ | grep -E cities.exe
-find /mnt/windows_c/Games/ | grep -E cities.exe
-find /mnt/windows_c/Users | grep -E cities.exe
-find /mnt/windows_c/ | grep -E cities.exe
-find /mnt/windows_c/ | grep -iE cities.exe
-killall ck2.exe
-ps aux
-ps aux | grep ck2.exe
-ps aux | grep ck2
-dhcpcd
-sudo dhcpcd
-ping google.com
-ping google.com
-ping google.com
-ping google.com
-ping google.com
-ip link
-dhcpcd
-sudo dhcpcd
-ping google.com
-ps aux
-ps aux | grep \.exe
-ps aux | grep '\.exe'
-killall Cities.exe
-clear
-clear
-find /mnt/windows -name ck2.exe
-ps aux
-ps aux | grep ck2
-ps aux | grep wine
-ps aux | grep wine
-ps aux | grep 
-lsblk
-man rsync
-rsync
-ls
-ls D
-rm D
-rm D -r
-ls
-ls test
-rm test
-rm test -r
-ls
-clear
-ls
-cd /
-cp -aR /home/* /mnt/home
-sudo umount /mnt/home
-ls -l /tmp
-mkdir /tmp/home
-ls /tmp/home
-ls /tmp/home -ld
-mount /dev/sda13 /tmp/home
-sudo mount /dev/sda13 /tmp/home
-ls /tmp/home/ -ld
-sudo chown alkis:wheel /tmp/home
-cp -aR /home/* /tmp/home
-sudo ls /home/lfs
-sudo ls /home/lfs -a
-man cp
-ls
-sudo mount /dev/sda8 /mnt/ubuntu/
-sudo umount /mnt/ubuntu
-cd git/
-ls
-sudo rm -r gentoo/
-find ~/ -name trash
-sudo rm -r ~/.local/share/Trash/*
-ls ~/.local/share/Trash/
-ls ~/.local/share/Trash/ -d
-ls ~/.local/share/Trash/ -dl
-clear
-dd if=/home of=/dev/sda13
-sudo dd if=/home of=/dev/sda13
-sudo dd if=/home/* of=/dev/sda13
-sudo dd if=/home/ of=/dev/sda13
-man dd
-cd 
-sudo mkdir /mnt/home
-sudo mount /dev/sda13 /mnt/home
-cp /home/* /mnt/home/*
-cd ..
-cd ..
-ls /mnt/home
-man df
-df 
-df /tmp
-exit
-df
-mount | grep tmpfs
-df
-df -h
-man /dev/shm
-man shm
-10
-clear
-ls
-cd ..
-ls
-cd
-cd ..
-ls
-cd
-cd
-clear
-ls
-ls tarballs/
-rm tarballs/cflow-latest.tar.bz2 
-ls tarballs/
-pacman -Ss image
-pacman -Ss image | grep viewer
-pacman -Ss image | less
-ls
-cd git
-cd abs
-ls
-ASPROOT=. asp checkout ranger
-ls
-cd ranger
-ls
-cd repos/
-ls
-cd community-any/
-ls
-vim PKGBUILD 
-sudo pacman -S w3m
-ls /tmp/home
-ls /tmp/home/lfs/ -a
-sudo ls /tmp/home/lfs/
-sudo cp -aR /home/lfs/ /tmp/home
-ls /tmp/home
-ls /tmp/home -l
-ls ../ -a
-ls ../ -al
-cd ..
-cd ..
-genfstab
-genfstab -u /
-genfstab -U /
-sudo umount /tmp/home
-sudo rm -r /home/*
-sudo mount /dev/sda13 /home
-ls home
-ls
-genfstab -U /
-sudo mv /mnt/windows /mnt/windows_e
-sudo umount /mnt/windows
-sudo fuser -k /mnt/windows
-sudo umount /mnt/windows
-sudo mv /mnt/{winodws,windows_e}
-ls /mnt
-sudo mv /mnt/{windows,windows_e}
-sudo mount /dev/sda13 /mnt/windows_e
-fanstab -U /
-genfstab -U /
-genfstab -U / >> /etc/fstab
-sudo genfstab -U / >> /etc/fstab
-su -c  "genfstab -U / >> /etc/fstab"
-sudo vim /etc/fstab
-sudo umount /mnt/windows_e
-sudo mount /dev/sda3 /mnt/windows_e
-su -c  "genfstab -U / >> /etc/fstab"
-sudo vim /etc/fstab
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-mount
-genfstab -U /
-df
-df -h
-cd
-ls
-pacman -Ss mc
-yaourt mc-git
-yaourt -S mc-git
-mc
-pacman -Ss ranger
-sudo pacman -S rander
-sudo pacman -S ranger
-sudo pacman -S atool elinks mediainfo
-ranger
-ranger
-ranger
-ps aux | grep wine
-ps aux 
-killall dotnetfx.exe
-clear
-clear
-clear
-cd ..
-cd ..
-cd ..
-ls
-clear
-cd
-cd ..
-cd ..
-cd
-ls
-clear
-WINEPREFIX=~/.local/share/wineprefixes/win32/ /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/CK2game.exe 
-WINEPREFIX=~/.wine/ /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/CK2game.exe 
-ls /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/
-ls /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/_CommonRedist/
-ls /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/_CommonRedist/vcredist/
-WINEPREFIX=~/.local/share/wineprefixes/win32/ /mnt/windows_e/Users/alkis/Downloads/Crusader.Kings.II-5.6.2/Crusader\ Kings\ II\ The\ Reapers\ Due/CK2game.exe 
-rm -r /.local/share/wineprefixes/win32/ 
-rm -r ~/.local/share/wineprefixes/win32/
-find .local/share/wineprefixes/Win32/
-find .local/share/wineprefixes/Win32/ |grep Temp
-rm .local/share/wineprefixes/Win32/drive_c/users/alkis/Temp/msid3f.tmp 
-rm .local/share/wineprefixes/Win32/drive_c/users/alkis/Temp/msid3f.tmp 
-rm .local/share/wineprefixes/Win32/
-rm .local/share/wineprefixes/win32/
-rm .local/share/wineprefixes/win32/
-rm .local/share/wineprefixes/win32/ -r
-rm -r ~
-cd
-cd ..
-cd
-clear
-rm .local/share/wineprefixes/win32/ -r
-WINEPREFIX=~/.local/share/wineprefixes/win32/ winetricks dotnet20
-
-rm -r .cache/winetricks/directx8 
-rm -r .cache/winetricks/dxsdk_jun2010/
-rm -r .cache/winetricks/PowerPointViewer/
-rm -r .cache/winetricks/win7sp1/
-rm -r .cache/winetricks/*
-WINEPREFIX=~/.local/share/wineprefixes/win32/ winetricks dotnet35
-WINEPREFIX=~/.local/share/wineprefixes/win32/ wine uninstall dotnet20
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winefile 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winefile 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winefile &
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winetricks 
+locale
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winecfg
+WINEPREFIX=~/.local/share/wineprefixes/warband/ q4wine
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
 man wine
-WINEPREFIX=~/.local/share/wineprefixes/win32/ wine uninstaller --remove dotnet20
-WINEPREFIX=~/.local/share/wineprefixes/win32/ wine uninstaller
-rm -r ~/.local/share/wineprefixes/win32/ 
-WINEPREFIX=~/.local/share/wineprefixes/win32/ winetricks dotnet35
-sudo pacman -S wine-mono
-sudo pacman -R wine
-sudo pacman -Rucs wine
-sudo pacman -S wine wine-mono
-sudo pacman -S q4wine
-sudo pacman -Rucs q4wine 
-sudo pacman -Rucs wine wine-mono
-rm .wine/ -r
-rm .local/share/wineprefixes/ -r
-sudo pacman -S wine-mono wine q4wine
-sudo pacman -Ss wine-mono
+python
+bluetoothctl
+sudo systemctl restart  bluetooth
+sudo systemctl status  bluetooth
+sudo systemctl stop  bluetooth
+sudo systemctl status  bluetooth
+sudo systemctl restart  bluetooth
+sudo systemctl status  bluetooth
+bluetoothctl
+xrandr
+man xrandr
+ps aux
+killall wine
+warband
+warband
+warband
+warband
+ls
+cd .local/share/wineprefixes/warband/drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest/
+ls
+cd Documents/Mount\&Blade\ Warband
+ls
+vim rgl_config.txt 
+wineprefixes/warband/ wine mb_warband.exe 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winetricks
+cd ~/.local/share/wineprefixes/warband/
+cd drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/
+ls
+clear
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winetricks
 sudo pacman -Ss mono
-pacman -Si cups
-find q4wine
-find . -name q4wine
-sudo pacman -R q4wine
-find . -name q4wine
-find . -name q4wine | xargs rm -r
-find . -name q4wine 
-sudo pacman -S q4wine
-find /usr |grep mono
-WINEPREFIX=~/.wine/ wine installer /usr/share/wine/mono/wine-mono-4.7.1.msi 
-find .wine/drive_c/ -name *.exe
+sudo pacman -S wine-mono
+ls
+ls ~/
+ls ~/Documents/Mount\&Blade\ Warband
+rm  ~/Documents/Mount\&Blade\ Warband/rgl_config.txt 
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
 man wine
-WINEPREFIX=~/.wine/ wine /usr/share/wine/mono/wine-mono-4.7.1.msi 
-WINEPREFIX=~/.wine/ wine cmd -e /usr/share/wine/mono/wine-mono-4.7.1.msi 
-WINEPREFIX=~/.wine/ wine cmd -e /usr/share//h
-WINEPREFIX=~/.wine/ wine cmd START /usr/share/wine/mono/wine-mono-4.7.1.msi 
-cd /
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine unins000.exe 
+ls
+rm *
+cd ..
+cd ..
+cd..
 cd
-cler
+sudo umount warbandiso/
+ls
+cd Downloads/
+ls
+cd Mount.and.Blade.Warband.Viking.Conquest-SKIDROW\[rarbg\]/
+ls
+sudo mount -o loop sr-mandbvc.iso ~/warbandiso/
+cd 
+cd Downloads/
+cd Mount.and.Blade.Warband.Viking.Conquest-SKIDROW\[rarbg\]/
+ls
+cd
+cd warbandiso/
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine setup.exe 
+cd ..
+cd .local/share/wineprefixes/warband/drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/
+ls
+ls
+cd ..
+ls
+find .
+cd Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest/
+ls
 clear
-rm .wine/dosdevices/c\:/windows/temp/_d3dx10_43/ -r
-rm .cache/winetricks/directx9/directx_Jun2010_redist.exe 
-mount | grep home
-getcwd
-sudo getcwd
+ls
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
+cp ~/warbandiso/skidrow/* .
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warband.exe 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine DirectX/DXSETUP.exe 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ winetricks
+mount
 clear
 ls
-ping google.com
+cd ..
 ls
-ls
-rm test.txt.gpg 
-cat test
-clear
-ls
-gpg -c test
-clear
-ls
-ls
-ls -a
-sudo gpg -d test.gpg 
-exit
+cd Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest/
 ls
 clear
 ls
-exit
-exit
-find /etc/ -name gpg.conf
+rm ../Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest\ Reforged\ Edition/ -rf
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warba.exe
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warba.exe
+echo 'alias warband="WINEPREFIX=~/.local/share/wineprefixes/warband/ wine mb_warba.exe"' > ~/.bashrc
+vim ~/.bashrc
+vim ~/.bashrc 
+cd
+ls
+man git checkout
+git checkout -- .bashrc
+ls
+vim .bashrc
+cd ~/.local/share/wineprefixes/warband/ 
+cd drive_c/Program\ Files\ \(x86\)/TaleWorlds\ Entertainment/Mount\ and\ Blade\ Warband\ -\ Viking\ Conquest/
+ls
+echo 'alias warband="WINEPREFIX=~/.local/share/wineprefixes/warband/ wine $(pwd)/mb_warba.exe"' >> ~/.bashrc
+vim ~/.bashrc 
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine $(pwd)/mb_warba.exe
+man pwd
+pwd
+WINEPREFIX=~/.local/share/wineprefixes/warband/ wine "$(pwd)"/mb_warba.exe
+vim ~/.bashrc
+warband
+vim ~/.bashrc
+source ~/.bashrc
+warband
+vim ~/.bashrc
+warband
+vim ~/.bashrc
+warband
+source ~/.bashrc
+warband
+python 
+date
+python
+bluetoothctl
+python 
+clear
+python
+clear
+sudo rfkill unblock bluetooth
+/usr/lib/bluetooth/bluetoothd -n
+sudo pacman -Suy
+/usr/lib/bluetooth/bluetoothd --help
+sudo systemctl stop bluetooth
+sudo systemctl status  bluetooth
+sudo systemctl start  bluetooth
+sudo systemctl status  bluetooth
+rfkill list
+clear
+rfkill list
+man rfkill
+rfkill list
+sudo systemctl start bluetooth
+sudo systemctl stop bluetooth
+vim Documents/Mount\&Blade\ Warband\ Savegames/Native/last_savegame_backup.sav 
+warband 
+warband 
+warband 
+warband 
+warband 
+vim ~/.bash_profile 
+source ~/.bashrc
+vim ~/.bash_profile 
+vim Documents/Mount\&Blade\ Warband\ Savegames/Native/last_savegame_backup.sav 
+cd .config/
+cd ..
+git status
+git status |grep modified
+git status |grep modified | grep ^.*
+git status |grep modified | grep ".*"
+git status |grep modified | grep "config"
+git status |grep modified | grep \.*
+git status |grep modified | grep "\.*"
+git status |grep -o modified | grep "\.*"
+git status |grep modified | grep "\.*"
+git status |grep modified | grep "\..*"
+git status |grep modified | grep "\..*" -o
+git status |grep modified | grep "\..*" -o |xargs git add
+git status
+git commit "config update jul" 
+git commit -m "config update jul" 
+git push origin master
+git status
+git push
+curl -u alkis05:7e0b9acc9ac42c0e8d0d3eb687df750844b88093 https://api.github.com/user/repos -d '{"name":"arch-config-files"}'
+git remote add origin git@github.com:alkis05/arch-config-files.git
+git push origin master
+curl -u alkis05:7e0b9acc9ac42c0e8d0d3eb687df750844b88093 https://api.github.com/user/repos -d '{"name":"arch-config-files"}'
+bluetoothctl
+ls
+cd Documents/
+ls
+cd Mount\&Blade\ Warband\ Savegames/
+ls
+git status
+git checkout -b jack
+git status
+ls
+man git merge
+git merge -m "day 58, first siege" jack-58
+git status
+git log
+git merge -m "day 90 failed siege" jack-92
+git merge -m "day 104" master
+git log
+clear
+git log --all
+gitk
+ls
+git checkout master
+git status
+git commit-am "jack day 104"
+git commit-a -m "jack day 104"
+git add . -m "jack day 104"
+git add . -m "jack day 104"
+git add . 
+git commit -m "jack day 104"
+git status
+clear
+ls
+git status
+git checkout jack
+git check out jack-58
+git check out jack-56
+git checkout jack-56
+git checkout jack-58
+git log
+git reset 7adf
+git log
+clear
+git log
+gitk --all
+git log
+git log --al
+git log --all
+clear
+git log --all
+git status
+git checkout jack
+git merge -m "jack 104" master
+git status
+git log
+git checkout master
+git log
+clear
+git log
+git checkout jack
+clear
+git log
+git reset 1ddb
+clear
+git log
+git merge -m "day 104" master
+rm -f Native/
+rm -rf Native/
+git merge -m "day 104" master
+git status
+clear
+ls
+git status
+git commit -a -m "rhodok declares war on swadia"
+git status
+git checkout -b thomas
+ls
+rm -rf Native/
+tar xvzf ../Thomas_mb.tar.gz ./
+man tar
+tar xvzf ../Thomas_mb.tar.gz 
+ls
+ls Thomas_mb/
+mv Thomas_mb/* .
+ls
+ls Native
+ls Thomas_mb/
+rmdir Thomas_mb/
+ls
+clear
+ls
+ls gaius/
+ls ../
+rm Native\ \(copy\ 1\)/ -fr
+rm -rf gaius/ warband.7z wolfgang.7z 
+ls
+rm -rf Viking\ Conquest/
+ls
+git status
+git comit -am "Thomas"
+git comit -a -m "Thomas"
+git commit -am "Thomas"
+clear
+ls
+bluetoothd -n
+clear
+ls
+git status
+git checkout --
+git status
+git checkout -- .
+git status
+git checkout jack
+dh -h .
+df -h
+d
+dh
+dt
+df
+du -h
+date
+du -hc
+man du
+du -hcs
+du -hcs .git
+du -hs .git
+man du
+ls
+git status
+git commit -am "day 117 2nd siege"
+du -hs
+ls
+git commit -am "day 122 3rd siege"
+git commit -am "day 124 defending"
+git status
+git commit -am "day 127 won battle vs swadia"
+git commit -am "day 147 marriage"
+git status
+git config github.user
+man git config
+git config --global github.user alkis05
+git config github.user
+vim ~/.bash_profile 
+source ~/.bash_profile
+git checkout master
+git status
+git commit -am "day peace with swadia"
+git checkout master
+git merge master 
+ls
+rm -rf Native/
+git merge master 
+ls
+git status
+git checkout -- .
+ls
+git log
+man git merge
+git merge -m "jack peace with swadia 128" master
+ls
+rm -rf Native/
+git merge -m "jack peace with swadia 128" master
+ls
+git status
+man git merge
+git checkout jack
+ls
+git checkout master
+ls
+git log
+git merge -m "jack peace with swadia" master
+ls
+git status
+ls
+rm -rf Native/
+ls
+git commit -am ""
+git commit -am "test"
+ls
+git merge -m "jack peace with swadia" master
+ls
+git log
+git reset 0de8a
+git status
+git checkout -- .
+ls
+clear
+ls
+git log
+git checkout jack
+ls
+git log
+git log
+clear
+ls
+git status
+gitk
+gitk --all
+clear
+git checkout master
+git checkout jack
+man touch
+git status
+git checkout master
+git diff jack
+gitk --all
+git checkout master
+gitk --all
+gitk
+git status
+rm -rf Native/
+ls
+clear
+ls
+ls
+ls
+git commit -am "test"
+ls
+gitk
+gitk --all
+git merge -m "jack peace with swadia" master
+gitk --all
+git status
+clear
+ls
+git pull
+git log
+git reset 0de8
+git status
+git checkout -- .
+git status
+clear
+ls
+git merge -m "jack peace with swadia" jack
+gitk
+git log
+git-create MnB 
+github-create MnB 
+github-create --basename
+basename --help
+vim ~/.bash_profile 
+source ~/.bash_profile
+github-create MnB 
+git config --global github.token 7e0b9acc9ac42c0e8d0d3eb687df750844b88093
+github-create MnB 
+github-create MnB 
+github-create --help
+curl -u alkis05:7e0b9acc9ac42c0e8d0d3eb687df750844b88093 https://api.github.com/user/repos -d '{"name":"MnB"}'
+git remote add origen git@github.com:alkis05/MnB.git
+git push -u origin master
+git remote add origin git@github.com:alkis05/MnB.git
+git push -u origin master
+git checkout jack
+git push -u origin jack
+git push -u origin thomas
+git branch
+git branch -D jack-58
+git branch -D jack-92
+git status
+gitk -all
+gitk --all
+git branch
+man basename
+basename $(pwd
+)
+basename "$(pwd)"
+git config --global github.user alkis05
+git config --global github.token 7e0b9acc9ac42c0e8d0d3eb687df750844b88093
+github-create test
+source ~/.bash_profile
+github-create test
+git config github.token
+bluetoothctl
+sudo systemctl restart bluetooth
+bluetoothctl
+sudo systemctl restart bluetooth
+sudo systemctl status bluetooth
+sudo systemctl start bluetooth
+ps aux |grep bluetooth
+sudo kill 11206
+ps aux |grep bluetooth
+sudo kill 11206
+ps aux |grep bluetooth
+sudo killall bluetoothd
+ps aux |grep bluetooth
+man kill
+kill -L
+sudo kill -s 4 -p 11206
+sudo kill -s 4 
+ps aux |grep bluetooth
+ps aux 
+ps aux |grep bluetooth
+ls /usr/lib/bluetooth/bluetoothd -n
+ls /usr/lib/bluetooth/bluetoothd --help
+dmesg
+ps aux
+killall gitk
+man bash
+man bash
+git config github.token
+man echo

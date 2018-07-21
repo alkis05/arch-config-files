@@ -35,3 +35,63 @@ workspace
 .config/bookworm
 .vim
 .config/transmission/
+.PlayOnLinux/
+.android/
+.ccache/
+.config/NifTools/
+.config/QOpenVPN/
+.config/Xavion/
+.config/calibre/
+.config/dmenu-launch/
+.config/gconf/
+.config/i3/.config.swp
+.config/mc/panels.ini
+.config/menus/applications-merged/wine-Programs-GOG.com-The Age of Decadence-The Age of Decadence.menu
+.config/menus/applications-merged/wine-Programs-GOG.com-The Age of Decadence-Uninstall The Age of Decadence.menu
+.config/menus/applications-merged/wine-Programs-TaleWorlds Entertainment-Mount and Blade Warband - Viking Conquest-Mount and Blade Warband - Viking Conquest.menu
+.config/menus/applications-merged/wine-Programs-TaleWorlds Entertainment-Mount and Blade Warband - Viking Conquest-Uninstall Mount and Blade Warband - Viking Conquest.menu
+.config/openmw/
+.config/pgadmin/
+.config/q4wine/winetricks
+.config/qgit/
+.config/qterminal.org/
+.config/sway/.config.swp
+.config/sway/i3blocks.conf
+.config/systemd/
+.config/tdm/
+.config/transmission-daemon/
+.cxoffice/
+.dbus/
+.eclipse/
+.elinks/
+.gimp-2.8/
+.gnome/
+.jack-server/
+.jack-settings
+.msf4/
+.pgAdmin4.14205473332193902643.addr
+.pgAdmin4.14205473332193902643.log
+.pgadmin/
+.phoronix-test-suite/
+.psql_history
+.repo_.gitconfig.json
+.repoconfig/
+.rnd
+.swt/
+.thumbnails/
+.tooling/
+.umit/
+.viminfo.tmp
+.viminfu.tmp
+.viminfx.tmp
+.viminfy.tmp
+.viminfz.tmp
+.xsession
+PRIME_Z370-P_Devices_report_20171018.pdf
+PlayOnLinux's virtual drives
+VPNBook.com-OpenVPN-US1.zip
+boot.bkp
+git_status.txt
+list_of_packages.txt
+ocult_files.txt
+

@@ -177,6 +177,10 @@ Plugin 'WolfgangMehner/c-support'
 "Description 	: formats c code
 Plugin 'http://llvm.org/git/clang-tools-extra.git'
 
+"Name		: vim-syntastic/syntastic
+"Description	: Syntx Checking
+Plugin 'vim-syntastic/syntastic'
+
 "====================================================================="
 "			END OF PLUGINS
 "====================================================================="
@@ -195,3 +199,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" Tab insert spaces
+set expandtab shiftwidth=4 smarttab tabstop=8 softtabstop=0
